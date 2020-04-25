@@ -1,0 +1,651 @@
+"#base" "base_weapon_upgrades.theater"
+
+"theater"
+{	
+	"weapon_upgrades"
+	{	
+	
+		// ========================================
+		// NEW CUSTOM ATTACHMENTS
+		// ========================================
+		
+		// 45RD EXTENDED MAGAZINE (ASSAULT RIFLES)
+		
+		"magazine_extended_rifle_45rd"
+		{
+			"upgrade_slot"				"magazine"
+			"upgrade_cost"				"2"
+			"team_access"				"security, insurgent"
+			"class_restricted"			"0"
+			"weight"					"0"
+
+			"print_name"				"#weapon_upgrade_magazine_extended"
+			"print_desc"				"#weapon_upgrade_magazine_extended_desc"
+			
+			"magsize_override"			"45"
+
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_m16a4"
+				"weapon"				"weapon_m4a1"
+				"weapon"				"weapon_mk18"
+				"weapon"				"weapon_akm"
+				"weapon"				"weapon_ak74"
+				"weapon"				"weapon_aks74u"
+				
+				// modded weapons
+				"weapon"				"weapon_l85a2"
+			}
+		}
+		
+		// 40RD EXTENDED MAGAZINES (SUBMACHINE GUNS)
+		
+		"magazine_extended_smg_40rd"
+		{
+			
+			"upgrade_slot"				"magazine"
+			"upgrade_cost"				"2"
+			"team_access"				"security, insurgent"
+			"class_restricted"			"0"
+			"weight"					"0"
+
+			"print_name"				"#weapon_upgrade_magazine_extended"
+			"print_desc"				"#weapon_upgrade_magazine_extended_desc"
+			
+			"magsize_override"			"40"
+			
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_mp5"
+				"weapon"				"weapon_ump45"
+				"weapon"				"weapon_mp40"				
+				"weapon"				"weapon_sterling"
+			}
+		}
+		
+		// SPEED PULL MAGAZINES
+		
+		"magazine_magpul"
+		{
+			"upgrade_slot"				"magazine"
+			"upgrade_cost"				"2"
+			"team_access"				"security, insurgent"
+			"class_restricted"			"0"
+			"weight"					"0"
+
+			"print_name"				"#weapon_upgrade_magazine_magpul"
+			"print_desc"				"#weapon_upgrade_magazine_magpul_desc"
+			
+			"reload_speed" "1.3"
+			
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_m16a4"
+				"weapon"				"weapon_m4a1"
+				"weapon"				"weapon_mk18"
+				"weapon"				"weapon_akm"
+				"weapon"				"weapon_ak74"
+				"weapon"				"weapon_aks74u"
+				"weapon"				"weapon_mini14"
+				"weapon"				"weapon_m14"		
+				"weapon"				"weapon_sks"
+
+				"weapon"				"weapon_mp5"
+				"weapon"				"weapon_mp40"
+				"weapon"				"weapon_sterling"
+				"weapon"				"weapon_ump45"
+
+				"weapon"				"weapon_galil"		
+				"weapon"				"weapon_galil_sar"
+				"weapon"				"weapon_fal"
+				"weapon"				"weapon_l1a1"
+				"weapon"				"weapon_m1a1"
+				
+				// modded weapons
+				"weapon"				"weapon_l85a2"
+				"weapon"				"weapon_groza"
+				"weapon"				"weapon_g3a3"
+				"weapon"				"weapon_mk17"
+			}
+
+			"viewmodel_attachments"
+			{
+				"magazine_m1a1"
+				{
+					"Act_Suffix"		"_MAG1"
+					"model"				"models/weapons/upgrades/a_magazine_m1a1_15.mdl"
+					"Main"				"1"
+
+					"weapons"
+					{
+						"weapon"		"weapon_m1a1"
+					}
+				}
+
+				"magazine_l1a1"
+				{
+					"Act_Suffix"		"_MAG1"
+					"model"				"models/weapons/upgrades/a_magazine_l1a1_20.mdl"
+					"Main"				"1"
+
+					"weapons"
+					{
+						"weapon"		"weapon_l1a1"
+					}
+				}
+			
+				"magazine_fal"
+				{
+					"Act_Suffix"		"_MAG1"
+					"model"				"models/weapons/upgrades/a_magazine_fal_20.mdl"
+					"Main"				"1"
+
+					"weapons"
+					{
+						"weapon"		"weapon_fal"
+					}
+				}
+
+				"magazine_galil"
+				{
+					"ActSuffix"			"_MAG1"
+					"model"				"models/weapons/upgrades/a_magazine_galil_35.mdl"
+					"Main"				"1"
+
+					"weapons"
+					{
+						"weapon"		"weapon_galil"
+						"weapon"		"weapon_galil_sar"
+					}
+				}
+				
+				// modded
+				
+				"magazine_g3a3"
+				{
+					"ActSuffix"			"_MAG1"
+					"model"				"models/weapons/upgrades/a_magazine_g3a3_20.mdl"
+					"Main"				"1"
+
+					"weapons"
+					{
+						"weapon"		"weapon_g3a3"
+					}
+				}
+			}
+
+			"world_attachments"
+			{
+				"magazine_m1a1"
+				{
+					"model"				"models/weapons/upgrades/w_magazine_m1a1_15.mdl"
+				}
+
+				"magazine_galil"
+				{
+					"model"				"models/weapons/upgrades/w_magazine_galil_35.mdl"					
+				}
+			}
+
+
+		}
+		
+		// M320 UNDERBARREL
+		
+		"underbarrel_m320_base"
+		{
+			"IsBase"				"1"
+			"import"				"underbarrel_gl_base"
+			
+			"viewmodel_attachments"
+			{
+				"Launcher"
+				{
+					"model"					"models/weapons/upgrades/a_gl_m320.mdl"
+					"Gesture"				"delta_gl"
+					"ActSuffix"				"_GL"
+					"Main"					"1"
+				}
+				
+				"Standard_L85A2"
+				{
+					"model"					"models/weapons/upgrades/a_standard6_l85a.mdl"
+					
+					"weapons"
+					{
+						"weapon"				"weapon_l85a2"
+					}
+				}
+			}
+			
+			"world_attachments"
+			{
+				"gesture"					"ACT_GESTURE_GL"
+				
+				"Launcher"
+				{
+					"model"					"models/weapons/upgrades/w_m203.mdl"
+				}
+			}
+			
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_l85a2"
+			}
+		}
+		
+		// M320 SMOKE
+		
+		"underbarrel_m320_smoke"
+		{
+			"import"					"underbarrel_m320_base"
+			"upgrade_cost"				"2"
+			"print_name"				"#weapon_m203_smoke"
+			"print_desc"				"#weapon_m203_smoke"
+			"attach_weapon"				"weapon_m203_smoke"
+		
+			"viewmodel_attachments"
+			{
+				"Launcher"
+				{
+					"skin"					"0"
+				}
+			}
+		}
+		
+		// M320 HE
+		
+		"underbarrel_m320_he"
+		{
+			"import"					"underbarrel_m320_base"
+			"upgrade_cost"				"4"
+			"print_name"				"#weapon_m203_he"
+			"print_desc"				"#weapon_m203_he_desc"
+			"attach_weapon"				"weapon_m203_he"
+			
+			"viewmodel_attachments"
+			{
+				"Launcher"
+				{
+					"skin"					"0"
+				}
+			}
+		}
+		
+		// SUSAT SIGHT FOR L85A2
+        
+		"optic_susat"
+		{
+			"upgrade_slot"				"optics"
+			"upgrade_cost"				"2"
+			"print_name"				"#weapon_upgrade_susat"
+			"print_desc"				"#weapon_upgrade_susat_desc"
+			"team_access"				"security"
+			"class_restricted"			"0"
+			
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_l85a2"
+			}
+			
+			"viewmodel_attachments"
+			{
+				"Susat"
+				{
+					"model"					"models/weapons/upgrades/a_optic_susat.mdl"
+					"AnimIronSights"		"susat_zoom"
+					"AnimIdle"				"susat_idle"
+					"Gesture"				"delta_susat"
+					"Main"					"1"
+					"weapons"
+					
+					{
+						"weapon"				"weapon_l85a2"
+					}
+					
+					"scales"
+					{
+						"weapon_l85a2"               "1.15"
+					}
+				}
+			}
+			
+			"world_attachments"
+			{
+				"ELCAN"
+				{
+					"model"					"models/weapons/upgrades/w_elcan.mdl"
+				}
+			}
+			
+			"optics_fov_override"
+			{
+				"fov_wpn_scope"				"14"
+				"fov_wpn_ironsight"			"56"
+				"fov_wpn_focus"				"64"
+				
+				"weapon_l85a2"
+				{
+					"fov_wpn_ironsight"			"62"
+					"fov_wpn_focus"				"64"
+				}
+			}
+		}
+		
+		// M1 GARAND SLING
+		
+		"sling_m1garand"
+		{
+			"print_name"				"#weapon_upgrade_m1garand_sling"
+			"print_desc"				"#weapon_upgrade_m1garand_sling_desc"
+			"upgrade_cost"				"1"
+			"upgrade_slot"				"stock"
+			
+			
+			"draw_speed"				"1.2"
+			"holster_speed"				"1.2"
+			"draw_speed_next_weapon"	"1.2"
+			"holster_speed_prev_weapon"	"1.2"
+			
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_m1garand"		
+			}
+			
+			"viewmodel_attachments"
+			{
+				"garand_sling"
+				{
+					"model"				"models\doi2ins\upgrades\a_sling_garand.mdl"
+					
+					"weapons"
+					{
+						"weapon"		"weapon_m1garand"
+					}
+				}		                          		
+			}			
+			
+			"team_access"				"security, insurgent"
+		}
+		
+		// M1 GARAND 4X SCOPE
+
+		"scope_4x_m1garand"
+		{
+			"import"					"base_optic_rail"
+			"print_name"				"#weapon_upgrade_m1garand_scope_4x"
+			"print_desc"				"#weapon_upgrade_m1garand_scope_4x_desc"
+			"class_restricted"			"0"
+			"upgrade_cost"				"2"
+			"team_access"				"security, insurgent"
+			
+			"sway"
+			{
+				"sway_radius_frac"		"1.8"
+				"sway_speed_frac"		"1.9"
+			}
+			
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_m1garand"
+			}
+			
+			"viewmodel_attachments"
+			{
+
+				"4xscope_garand"
+				{
+					"model"					"models/doi2ins/upgrades/a_optic_garand.mdl"
+					"AnimIronSights"		"scope_zoom"
+					"AnimIdle"				"scope_idle"
+					"Gesture"				"delta_scope"
+					"Main"					"1"
+					
+					"weapons"
+					{
+						"weapon"			"weapon_m1garand"	
+					}
+				}
+			}
+			
+			"world_attachments"
+			{
+			
+				"Scope_Garand"
+				{
+					"model"					"models/doi2ins/upgrades/w_scope_garand.mdl"
+					
+					"weapons"
+					{
+						"weapon"			"weapon_m1garand"
+					}
+				}
+			}
+			
+			"optics_fov_override"
+			{
+				"fov_wpn_scope"				"15"
+				"fov_wpn_ironsight"			"37"
+				"fov_wpn_focus"				"43"		
+				
+				"weapon_m1garand"
+				{
+					"fov_wpn_scope"				"15"
+					"fov_wpn_ironsight"			"43"
+					"fov_wpn_focus"				"48"
+				}			
+			}
+		}
+		
+		// M1 GARAND CLOTHWRAP
+
+		"clothwrap_m1garand"
+		{
+			"upgrade_cost"				"1"
+			"upgrade_slot"				"aesthetic"
+			"print_name"				"#m1garand_clothwrap"
+			"print_desc"				"#m1garand_clothwrap_desc"
+			"reload_speed"				"1.2"
+
+						
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_m1garand"
+			}
+			
+			"viewmodel_attachments"
+			{
+				"clothwrap"
+				{
+					"model"				"models/doi2ins/upgrades/a_clothwrap_garand.mdl"
+					
+					"weapons"
+					{
+						"weapon"			"weapon_m1garand"
+					}
+				}
+			}
+			
+			"world_attachments"
+			{
+				"clothwrap"
+				{
+					"model"				"models/doi2ins/upgrades/w_clothwrap_garand.mdl"
+					
+					"weapons"
+					{
+						"weapon"			"weapon_m1garand"
+					}
+				}
+			}
+		}
+		
+		//
+		// M1014 EXTENDED TUBE
+		//
+		
+		"magazine_extended_shotgun"
+		{
+		
+			"upgrade_slot" 				"magazine"
+			"upgrade_cost"				"2"
+			"team_access"				"security, insurgent"
+			
+			"print_name"				"#weapon_upgrade_tube_extended"
+			"print_desc"				"#weapon_upgrade_tube_extended_desc"
+			
+			"magsize_override" "7"
+			
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_m1014"
+			}	
+			
+			"viewmodel_attachments"
+			{
+				"magazine_8_m1014"
+				{
+					"ActSuffix"			"_MAG1"
+					"model"				"models/weapons/m1014/a_magazine_m1014_extended.mdl"
+
+					"weapons"
+					{
+						"weapon"		"weapon_m1014"
+					}
+				}
+			}			
+					
+		}
+		
+		//===========================
+		// AMMO SECTION
+		//===========================
+
+		//	GROZA AMMO
+		
+		"ammo_tracer_groza"
+		{
+			"import"				"base_ammo_tracer"
+			"upgrade_cost"				"0"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_groza"
+			}
+			"ammo_type_override"			"762x39_groza"
+		}
+		"ammo_hp_groza"
+		{
+			"import"				"base_ammo_hp"
+			"upgrade_cost"				"2"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_groza"
+			}
+			"ammo_type_override"			"762x38_hp_groza"
+		}
+		"ammo_ap_groza"
+		{
+			"import"				"base_ammo_ap"
+			"upgrade_cost"				"3"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_groza"
+			}
+			"ammo_type_override"			"762x38_ap_groza"
+		}
+		
+		// M240 AMMO
+		
+		"ammo_hp_m240"
+		{
+		
+			"import"			"base_ammo_hp"
+			"upgrade_cost"		"2"
+			
+			"allowed_weapons"
+			{
+				"weapon"		"weapon_m240"
+			}
+			
+			"ammo_type_override"		"762x51_pouch_hp"
+		
+		}
+		
+		"ammo_ap_m240"
+		{
+			"import"			"base_ammo_ap"
+			"upgrade_cost"		"3"
+			
+			"allowed_weapons"
+			{
+				"weapon"		"weapon_m240"
+			}
+			
+			"ammo_type_override"		"762x51_pouch_ap"
+		}
+		
+		// M1 GARAND AMMO
+			
+		"ammo_hp_m1garand"
+		{
+			"import"				"base_ammo_hp"
+			"upgrade_cost"			"2"
+			
+			"allowed_weapons"
+			{
+				"weapon"		"weapon_m1garand"
+			}
+			
+			"ammo_type_override"			"762x63_hp_clip"
+		}
+		
+		"ammo_ap_m1garand"
+		{
+			"import"				"base_ammo_ap"
+			"upgrade_cost"			"3"
+			
+			"allowed_weapons"
+			{
+				"weapon"		"weapon_m1garand"
+			}
+			
+			"ammo_type_override"			"762x63_ap_clip"
+		}
+		
+		// MK 17 ammo
+		
+		"ammo_tracer_mk17"
+		{
+			"import"				"base_ammo_tracer"
+			"upgrade_cost"				"0"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_mk17"
+			}
+			"ammo_type_override"			"762x51_tracer_mk17_mag"
+		}
+		
+		"ammo_hp_mk17"
+		{
+			"import"				"base_ammo_hp"
+			"upgrade_cost"				"2"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_mk17"
+			}
+			"ammo_type_override"			"762x51_hp_mk17_mag"
+		}
+		
+		"ammo_ap_mk17"
+		{
+			"import"				"base_ammo_ap"
+			"upgrade_cost"				"3"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_mk17"
+			}
+			"ammo_type_override"			"762x51_ap_mk17_mag"
+		}
+	}
+}
+	
