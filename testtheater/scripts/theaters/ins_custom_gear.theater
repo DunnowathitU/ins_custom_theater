@@ -2,6 +2,11 @@
 {
 	"player_gear"
 	{
+		// ========================================
+		// BASEGAME ARMORS
+		// ========================================
+		
+		// SECURITY LIGHT ARMOR (1)	
 		"sec_light_armor"
 		{
 			"print_name"				"#gear_light_armor"
@@ -13,7 +18,7 @@
 			
 			"DamageHitgroups"
 			{	
-				"HITGROUP_HEAD"			"0.5"
+				"HITGROUP_HEAD"			"1.0"
 				"HITGROUP_CHEST"		"0.8"
 				"HITGROUP_STOMACH"		"0.8"
 			}
@@ -27,6 +32,8 @@
 			
 			"team_access"				"security"
 		}
+		
+		// INSURGENT LIGHT ARMOR (2)
 		"ins_light_armor"
 		{
 			"print_name"				"#gear_light_armor"
@@ -38,7 +45,7 @@
 			
 			"DamageHitgroups"
 			{
-				"HITGROUP_HEAD"			"0.5"
+				"HITGROUP_HEAD"			"1.0"
 				"HITGROUP_CHEST"		"0.8"
 				"HITGROUP_STOMACH"		"0.8"
 			}
@@ -53,50 +60,21 @@
 			"team_access"				"insurgent"
 		}
 		
-		//
-		// SECURITY LIGHT VIP ARMOR
-		//
-		
-		"sec_light_armor_vip"
-		{
-			"print_name"				"#gear_light_armor"
-			"print_desc"				"#gear_light_armor_desc"
-			"gear_slot"					"armor"
-			"gear_cost"					"0"
-			"gear_weight"				"64"	// 25 (2.5kg) + 75 encumbrance
-			"class_restricted"			"1"
-			
-			"DamageHitgroups"
-			{
-				"HITGROUP_HEAD"			"0.25"
-				"HITGROUP_CHEST"		"0.8"
-				"HITGROUP_STOMACH"		"0.8"
-			}
-			
-			"penetration_power_required" "100"
-			"penetration_power_loss"	"120"
-			"explosive_damage_frac"		"0.8"
-			
-			"player_model_override"		"models/characters/civilian_vip_security.mdl"
-			"viewmodel_hands_override"	"models/weapons/v_hands_sec_l.mdl"
-			
-			"team_access"				"security"
-		}
-		
+		// SECURITY HEAVY ARMOR (3)
 		"sec_heavy_armor"
 		{
 			"print_name"				"#gear_heavy_armor"
 			"print_desc"				"#gear_heavy_armor_desc"
-			"gear_slot"				"armor"
-			"gear_cost"				"2"
+			"gear_slot"					"armor"
+			"gear_cost"					"2"
 			"gear_weight"				"128"	// 75 (7.5kg) + 250 encumbrance
 			"class_restricted"			"1"			   
 			
 			"DamageHitgroups"
 			{
-				"HITGROUP_HEAD"			"0.5"
-				"HITGROUP_CHEST"		"0.7"
-				"HITGROUP_STOMACH"		"0.7"
+				"HITGROUP_HEAD"			"1.0"
+				"HITGROUP_CHEST"		"0.6"
+				"HITGROUP_STOMACH"		"0.6"
 			}
 			
 			"penetration_power_required" "165"
@@ -109,6 +87,7 @@
 			"team_access"				"security"
 		}
 		
+		// INSURGENT HEAVY ARMOR (4)
 		"ins_heavy_armor"
 		{
 			"print_name"				"#gear_heavy_armor"
@@ -120,340 +99,32 @@
 			
 			"DamageHitgroups"
 			{	
-				"HITGROUP_HEAD"			"0.5"
-				"HITGROUP_CHEST"		"0.7"
-				"HITGROUP_STOMACH"		"0.7"
-			}
-			
-			"penetration_power_required" 	"165"
-			"penetration_power_loss"		"185"
-			"explosive_damage_frac"			"0.6"
-			
-			"player_model_override"		"models/characters/insurgent_heavy.mdl"
-			"viewmodel_hands_override"	"models/weapons/v_hands_ins_h.mdl"
-			
-			"team_access"				"insurgent"
-		}
-		
-		//
-		// SECURITY HEAVY VIP ARMOR
-		//
-		
-		"sec_heavy_armor_vip"
-		{
-			"print_name"				"#gear_heavy_armor"
-			"print_desc"				"#gear_heavy_armor_desc"
-			"gear_slot"					"armor"
-			"gear_cost"					"2"
-			"gear_weight"				"126"	// 75 (7.5kg) + 250 encumbrance
-			"class_restricted"			"1"
-			
-			"DamageHitgroups"
-			{
-				"HITGROUP_HEAD"			"0.5"
-				"HITGROUP_CHEST"		"0.7"
-				"HITGROUP_STOMACH"		"0.7"
-			}
-			
-			"penetration_power_required" 	"165"
-			"penetration_power_loss"		"185"
-			"explosive_damage_frac"			"0.6"
-			
-			"player_model_override"		"models/characters/civilian_vip_security.mdl"
-			"viewmodel_hands_override"	"models/weapons/v_hands_sec_l.mdl"
-			
-			"team_access"				"security"
-		}
-		
-		//
-		// SECURITY EOD SUIT
-		//
-		
-		"sec_eod_armor"
-		{
-			"print_name"				"#gear_eod_armor"
-			"print_desc"				"#gear_eod_armor_desc"
-			"gear_slot"					"armor"
-			"gear_cost"					"3"
-			"gear_weight"				"160"
-			"class_restricted"			"1"
-			
-			"DamageHitgroups"
-			{
-				"HITGROUP_HEAD"			"0.5"
-				"HITGROUP_CHEST"		"0.8"
-				"HITGROUP_STOMACH"		"0.8"
-			}
-			
-			"penetration_power_required" 	"120"
-			"penetration_power_loss"		"140"
-			"explosive_damage_frac"		"0.1"
-			
-			"player_model_override"		"models/characters/security_heavy.mdl"
-			"viewmodel_hands_override"	"models/weapons/v_hands_sec_h.mdl"
-
-			"team_access"				"security"
-		}
-		
-		//
-		// SECURITY THERMAL ARMOR
-		//
-		
-		"sec_thermal_armor"
-		{
-			"print_name"				"#gear_thermal_armor"
-			"print_desc"				"#gear_thermal_armor_desc"
-			"gear_slot"					"armor"
-			"gear_cost"					"3"
-			"gear_weight"				"160"
-			"class_restricted"			"1"
-			
-			"DamageHitgroups"
-			{
-				"HITGROUP_HEAD"			"0.5"
-				"HITGROUP_CHEST"		"0.8"
-				"HITGROUP_STOMACH"		"0.8"
-			}
-			
-			"penetration_power_required" "120"
-			"penetration_power_loss"	"140"
-			"explosive_damage_frac"		"0.6"
-			
-			"player_model_override"		"models/characters/security_heavy.mdl"
-			"viewmodel_hands_override"	"models/weapons/v_hands_sec_h.mdl"
-			
-			"team_access"				"security"
-		}
-		
-		//
-		// SECURITY REINFORCED ARMOR
-		//
-		
-		"sec_reinforced_armor"
-		{
-			"print_name"				"#gear_reinforced_armor"
-			"print_desc"				"#gear_reinforced_armor_desc"
-			"gear_slot"					"armor"
-			"gear_cost"					"3"
-			"gear_weight"				"160"	// 75 (7.5kg) + 250 encumbrance
-			"class_restricted"			"1"
-			
-			"DamageHitgroups"
-			{
-				"HITGROUP_HEAD"			"0.25"
-				"HITGROUP_CHEST"		"0.4"
-				"HITGROUP_STOMACH"		"0.4"
-				"HITGROUP_LEFTARM"		"0.2"
-				"HITGROUP_RIGHTARM"		"0.2"
-				"HITGROUP_LEFTLEG"		"0.2"
-				"HITGROUP_RIGHTLEG"		"0.2"
-			}
-			
-			"penetration_power_required" "275"
-			"penetration_power_loss"	"350"
-			"explosive_damage_frac"		"0.3"
-			
-			"player_model_override"		"models/characters/security_heavy.mdl"
-			"viewmodel_hands_override"	"models/weapons/v_hands_sec_h.mdl"
-			
-			"team_access"				"security"
-		}
-		
-		//
-		// SECURITY JUGGERNAUT ARMOR
-		//
-		
-		"sec_juggernaut_armor"
-		{
-			"print_name"				"#gear_juggernaut_armor"
-			"print_desc"				"#gear_juggernaut_armor_desc"
-			"gear_slot"					"armor"
-			"gear_cost"					"4"
-			"gear_weight"				"192"	// 75 (7.5kg) + 250 encumbrance
-			"class_restricted"			"1"
-			
-			"DamageHitgroups"
-			{
-				"HITGROUP_HEAD"			"0.25"
-				"HITGROUP_CHEST"		"0.2"
-				"HITGROUP_STOMACH"		"0.2"
-				"HITGROUP_LEFTARM"		"0.2"
-				"HITGROUP_RIGHTARM"		"0.2"
-				"HITGROUP_LEFTLEG"		"0.2"
-				"HITGROUP_RIGHTLEG"		"0.2"
-			}
-			
-			"penetration_power_required" "400"
-			"penetration_power_loss"	"450"
-			"explosive_damage_frac"		"0.2"
-			
-			"player_model_override"		"models/characters/security_heavy.mdl"
-			"viewmodel_hands_override"	"models/weapons/v_hands_sec_h.mdl"
-			
-			"team_access"				"security"
-		}
-		
-		//
-		// INSURGENT JUGGERNAUT ARMOR
-		//
-		
-		"ins_juggernaut_armor"
-		{
-			"print_name"				"#gear_juggernaut_armor"
-			"print_desc"				"#gear_juggernaut_armor_desc"
-			"gear_slot"					"armor"
-			"gear_cost"					"0"
-			"gear_weight"				"192"
-			"class_restricted"			"1"
-			
-			"DamageHitgroups"
-			{
-				"HITGROUP_HEAD"			"0.25"
-				"HITGROUP_CHEST"		"0.2"
-				"HITGROUP_STOMACH"		"0.2"
-				"HITGROUP_LEFTARM"		"0.2"
-				"HITGROUP_RIGHTARM"		"0.2"
-				"HITGROUP_LEFTLEG"		"0.2"
-				"HITGROUP_RIGHTLEG"		"0.2"
-			}
-			
-			"penetration_power_required" "400"
-			"penetration_power_loss"	"450"
-			"explosive_damage_frac"		"0.2"
-			
-			"player_model_override"		"models/characters/insurgent_heavy.mdl"
-			"viewmodel_hands_override"	"models/weapons/v_hands_ins_h.mdl"
-			
-			"team_access"				"insurgent"
-		}
-		
-		//
-		// INSURGENT FULL ARMOR
-		//
-		
-		"ins_full_armor"
-		{
-			"print_name"				"#gear_heavy_armor"
-			"print_desc"				"#gear_heavy_armor_desc"
-			"gear_slot"				"armor"
-			"gear_cost"				"0"
-			"gear_weight"				"0"	// 75 (7.5kg) + 250 encumbrance
-			"class_restricted"			"1"
-			
-			"DamageHitgroups"
-			{
-				"HITGROUP_HEAD"			"0.5" //0.65
-				"HITGROUP_CHEST"		"0.5" //0.75
-				"HITGROUP_STOMACH"		"0.5"
-			}
-			
-			"penetration_power_required" "300"
-			"penetration_power_loss"	"350"
-			"explosive_damage_frac"		"0.3"
-			
-			"player_model_override"		"models/characters/insurgent_heavy.mdl"
-			"viewmodel_hands_override"	"models/weapons/v_hands_ins_h.mdl"
-			
-			"team_access"				"insurgent"
-		}
-		
-		//
-		// INSURGENT BOMBER ARMOR
-		//
-		
-		"ins_bomber_armor"
-		{
-			"print_name"				"#gear_heavy_armor"
-			"print_desc"				"#gear_heavy_armor_desc"
-			"gear_slot"					"armor"
-			"gear_cost"					"0"
-			"gear_weight"				"0"
-			"class_restricted"			"1"
-			
-			"DamageHitgroups"
-			{
+				"HITGROUP_HEAD"			"1.0"
 				"HITGROUP_CHEST"		"0.6"
 				"HITGROUP_STOMACH"		"0.6"
 			}
 			
-			"penetration_power_required" "200"
-			"penetration_power_loss"	"240"
-			"explosive_damage_frac"		"0.5"
+			"penetration_power_required" 	"165"
+			"penetration_power_loss"		"185"
+			"explosive_damage_frac"			"0.6"
 			
-			"player_model_override"		"models/characters/civilian_vip_insurgent.mdl"
+			"player_model_override"		"models/characters/insurgent_heavy.mdl"
 			"viewmodel_hands_override"	"models/weapons/v_hands_ins_h.mdl"
 			
 			"team_access"				"insurgent"
 		}
 		
-		//
-		// VIP EOD SUIT
-		//
+		// ========================================
+		// BASEGAME CARRIERS
+		// ========================================	
 		
-		"sec_eod_armor_vip"
-		{
-			"print_name"				"#gear_eod_armor"
-			"print_desc"				"#gear_eod_armor_desc"
-			"gear_slot"					"armor"
-			"gear_cost"					"3"
-			"gear_weight"				"160"
-			"class_restricted"			"1"
-			
-			"DamageHitgroups"
-			{
-				"HITGROUP_CHEST"		"0.8"
-				"HITGROUP_STOMACH"		"0.8"
-			}
-			
-			"penetration_power_required" 	"120"
-			"penetration_power_loss"		"140"
-			"explosive_damage_frac"		"0.1"
-			
-			"player_model_override"		"models/characters/civilian_vip_security.mdl"
-			"viewmodel_hands_override"	"models/weapons/v_hands_sec_l.mdl"
-			
-			"team_access"				"security"
-		}
-		
-		//
-		// VIP THERMAL ARMOR
-		//
-		
-		"sec_thermal_armor_vip"
-		{
-			"print_name"				"#gear_thermal_armor"
-			"print_desc"				"#gear_thermal_armor_desc"
-			"gear_slot"					"armor"
-			"gear_cost"					"3"
-			"gear_weight"				"160"
-			"class_restricted"			"1"
-			
-			"DamageHitgroups"
-			{	"HITGROUP_HEAD"			"0.25"
-				"HITGROUP_CHEST"		"0.8"
-				"HITGROUP_STOMACH"		"0.8"
-			}
-			
-			"penetration_power_required" "120"
-			"penetration_power_loss"	"140"
-			"explosive_damage_frac"		"0.6"
-			
-			"player_model_override"		"models/characters/civilian_vip_security.mdl"
-			"viewmodel_hands_override"	"models/weapons/v_hands_sec_l.mdl"
-			
-			"team_access"				"security"
-		}
-		
-		//
-		// CARRIERS SECTION
-		//	
-		
+		// SECURITY CHEST RIG (5)
 		"sec_chest_rig"
 		{
 			"print_name"				"#gear_chest_rig"
 			"print_desc"				"#gear_chest_rig_desc"
-			"gear_slot"				"vest"
-			"gear_cost"				"1"
+			"gear_slot"					"vest"
+			"gear_cost"					"1"
 			"gear_weight"				"64"	// 22 (2.2kg) + 24 encumbrance
 			"extra_ammo"
 			{
@@ -473,6 +144,7 @@
 			"team_access"				"security"
 		}
 		
+		// INSURGENT CHEST RIG (6)
 		"ins_chest_rig"
 		{
 			"print_name"				"#gear_chest_rig"
@@ -498,6 +170,7 @@
 			"team_access"				"insurgent"
 		}
 		
+		// SECURITY CHEST CARRIER (7)
 		"sec_chest_carrier"
 		{
 			"print_name"				"#gear_chest_carrier"
@@ -526,6 +199,8 @@
 			}
 			"team_access"				"security"
 		}
+		
+		// INSURGENT CHEST CARRIER (8)
 		"ins_chest_carrier"
 		{
 			"print_name"				"#gear_chest_carrier"
@@ -554,13 +229,18 @@
 			"team_access"				"insurgent"
 		}
 		
+		// ========================================
+		// BASEGAME ACCESSORIES
+		// ========================================
+		
+		// SECURITY NIGHT VISION (9)
 		"sec_nightvision"
 		{
 			"print_name"				"#gear_nvg"
 			"print_desc"				"#gear_nvg_desc"
 			"gear_slot"				"accessory"
 			"gear_cost"				"1"
-			"gear_weight"				"30"
+			"gear_weight"			"30"
 			"entity"				"nvg"
 			"model"					"models/characters/a_nightvision.mdl"
 				
@@ -582,7 +262,8 @@
 				
 			"team_access"				"security"
 		}
-			
+		
+		// INSURGENT NIGHT VISION (10)
 		"ins_nightvision"
 		{
 			"print_name"				"#gear_nvg"
@@ -612,20 +293,247 @@
 			"team_access"				"insurgent"
 		}
 		
-		//
-		// MODDED CHEST CARRIER SECTION
-		//
+		// ========================================
+		// MODDED ARMORS
+		// ========================================
 		
-		//
-		// ALPHA TEAM TACTICAL CARRIER
-		//
+		// SECURITY EOD ARMOR (11)
+		"sec_eod_armor"
+		{
+			"print_name"				"#gear_eod_armor"
+			"print_desc"				"#gear_eod_armor_desc"
+			"gear_slot"					"armor"
+			"gear_cost"					"4"
+			"gear_weight"				"176"
+			"class_restricted"			"1"
+			
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"			"1.0"
+				"HITGROUP_CHEST"		"0.8"
+				"HITGROUP_STOMACH"		"0.8"
+			}
+			
+			"penetration_power_required" 	"120"
+			"penetration_power_loss"		"140"
+			"explosive_damage_frac"			"0.1"
+			
+			"player_model_override"		"models/characters/security_heavy.mdl"
+			"viewmodel_hands_override"	"models/weapons/v_hands_sec_h.mdl"
+
+			"team_access"				"security"
+		}
 		
+		// SECURITY REINFORCED ARMOR (12)
+		"sec_reinforced_armor"
+		{
+			"print_name"				"#gear_reinforced_armor"
+			"print_desc"				"#gear_reinforced_armor_desc"
+			"gear_slot"					"armor"
+			"gear_cost"					"3"
+			"gear_weight"				"160"	// 75 (7.5kg) + 250 encumbrance
+			"class_restricted"			"1"
+			
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"			"0.8"
+				"HITGROUP_CHEST"		"0.4"
+				"HITGROUP_STOMACH"		"0.4"
+				"HITGROUP_LEFTARM"		"0.2"
+				"HITGROUP_RIGHTARM"		"0.2"
+				"HITGROUP_LEFTLEG"		"0.2"
+				"HITGROUP_RIGHTLEG"		"0.2"
+			}
+			
+			"penetration_power_required" "275"
+			"penetration_power_loss"	"350"
+			"explosive_damage_frac"		"0.4"
+			
+			"player_model_override"		"models/characters/security_heavy.mdl"
+			"viewmodel_hands_override"	"models/weapons/v_hands_sec_h.mdl"
+			
+			"team_access"				"security"
+		}
+		
+		// SECURITY JUGGERNAUT ARMOR (13)
+		"sec_juggernaut_armor"
+		{
+			"print_name"				"#gear_juggernaut_armor"
+			"print_desc"				"#gear_juggernaut_armor_desc"
+			"gear_slot"					"armor"
+			"gear_cost"					"4"
+			"gear_weight"				"192"	// 75 (7.5kg) + 250 encumbrance
+			"class_restricted"			"1"
+			
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"			"0.7"
+				"HITGROUP_CHEST"		"0.25"
+				"HITGROUP_STOMACH"		"0.25"
+				"HITGROUP_LEFTARM"		"0.25"
+				"HITGROUP_RIGHTARM"		"0.25"
+				"HITGROUP_LEFTLEG"		"0.25"
+				"HITGROUP_RIGHTLEG"		"0.25"
+			}
+			
+			"penetration_power_required" "400"
+			"penetration_power_loss"	"450"
+			"explosive_damage_frac"		"0.4"
+			
+			"player_model_override"		"models/characters/security_heavy.mdl"
+			"viewmodel_hands_override"	"models/weapons/v_hands_sec_h.mdl"
+			
+			"team_access"				"security"
+		}
+		
+		// INSURGENT JUGGERNAUT ARMOR (14)
+		"ins_juggernaut_armor"
+		{
+			"print_name"				"#gear_juggernaut_armor"
+			"print_desc"				"#gear_juggernaut_armor_desc"
+			"gear_slot"					"armor"
+			"gear_cost"					"0"
+			"gear_weight"				"192"
+			"class_restricted"			"1"
+			
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"			"0.7"
+				"HITGROUP_CHEST"		"0.25"
+				"HITGROUP_STOMACH"		"0.25"
+				"HITGROUP_LEFTARM"		"0.25"
+				"HITGROUP_RIGHTARM"		"0.25"
+				"HITGROUP_LEFTLEG"		"0.25"
+				"HITGROUP_RIGHTLEG"		"0.25"
+			}
+			
+			"penetration_power_required" "400"
+			"penetration_power_loss"	"450"
+			"explosive_damage_frac"		"0.4"
+			
+			"player_model_override"		"models/characters/insurgent_heavy.mdl"
+			"viewmodel_hands_override"	"models/weapons/v_hands_ins_h.mdl"
+			
+			"team_access"				"insurgent"
+		}
+		
+		// SECURITY LIGHT VIP ARMOR (15)
+		"sec_light_armor_vip"
+		{
+			"print_name"				"#gear_light_armor"
+			"print_desc"				"#gear_light_armor_desc"
+			"gear_slot"					"armor"
+			"gear_cost"					"0"
+			"gear_weight"				"64"	// 25 (2.5kg) + 75 encumbrance
+			"class_restricted"			"1"
+			
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"			"1.0"
+				"HITGROUP_CHEST"		"0.7"
+				"HITGROUP_STOMACH"		"0.7"
+			}
+			
+			"penetration_power_required" "100"
+			"penetration_power_loss"	"120"
+			"explosive_damage_frac"		"0.7"
+			
+			"player_model_override"		"models/characters/civilian_vip_security.mdl"
+			"viewmodel_hands_override"	"models/weapons/v_hands_sec_l.mdl"
+			
+			"team_access"				"security"
+		}
+		
+		// SECURITY HEAVY VIP ARMOR (16)
+		"sec_heavy_armor_vip"
+		{
+			"print_name"				"#gear_heavy_armor"
+			"print_desc"				"#gear_heavy_armor_desc"
+			"gear_slot"					"armor"
+			"gear_cost"					"2"
+			"gear_weight"				"126"	// 75 (7.5kg) + 250 encumbrance
+			"class_restricted"			"1"
+			
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"			"1.0"
+				"HITGROUP_CHEST"		"0.5"
+				"HITGROUP_STOMACH"		"0.5"
+			}
+			
+			"penetration_power_required" 	"165"
+			"penetration_power_loss"		"185"
+			"explosive_damage_frac"			"0.5"
+			
+			"player_model_override"		"models/characters/civilian_vip_security.mdl"
+			"viewmodel_hands_override"	"models/weapons/v_hands_sec_l.mdl"
+			
+			"team_access"				"security"
+		}
+		
+		// SECURITY VIP EOD ARMOR (17)
+		"sec_eod_armor_vip"
+		{
+			"print_name"				"#gear_eod_armor"
+			"print_desc"				"#gear_eod_armor_desc"
+			"gear_slot"					"armor"
+			"gear_cost"					"4"
+			"gear_weight"				"160"
+			"class_restricted"			"1"
+			
+			"DamageHitgroups"
+			{
+				"HITGROUP_CHEST"		"0.75"
+				"HITGROUP_STOMACH"		"0.8"
+			}
+			
+			"penetration_power_required" 	"120"
+			"penetration_power_loss"		"140"
+			"explosive_damage_frac"		"0.1"
+			
+			"player_model_override"		"models/characters/civilian_vip_security.mdl"
+			"viewmodel_hands_override"	"models/weapons/v_hands_sec_l.mdl"
+			
+			"team_access"				"security"
+		}
+		
+		// INSURGENT BOMBER ARMOR (18)
+		"ins_bomber_armor"
+		{
+			"print_name"				"#gear_heavy_armor"
+			"print_desc"				"#gear_heavy_armor_desc"
+			"gear_slot"					"armor"
+			"gear_cost"					"0"
+			"gear_weight"				"0"
+			"class_restricted"			"1"
+			
+			"DamageHitgroups"
+			{
+				"HITGROUP_CHEST"		"0.7"
+				"HITGROUP_STOMACH"		"0.7"
+			}
+			
+			"penetration_power_required"	"120"
+			"penetration_power_loss"		"140"
+			"explosive_damage_frac"			"0.7"
+			
+			"player_model_override"		"models/characters/civilian_vip_insurgent.mdl"
+			"viewmodel_hands_override"	"models/weapons/v_hands_ins_h.mdl"
+			
+			"team_access"				"insurgent"
+		}
+		
+		// ========================================
+		// MODDED CARRIERS
+		// ========================================
+		
+		// TACTICAL CARRIER (19)
 		"sec_tactical_carrier"
 		{
 			"print_name"			"#gear_tactical_carrier"
 			"print_desc"			"#gear_tactical_carrier_desc"
 			"gear_slot"				"vest"
-			"gear_cost"				"3"
+			"gear_cost"				"4"
 			"gear_weight"				"180"
 			"class_restricted"			"1"
 			
@@ -649,44 +557,78 @@
 				"backpack"				"1"
 			}
 			"team_access"				"security"
-		}	
-		
-		//
-		// GRENADIER GRENADE CARRIER
-		//
-		
-		"sec_grenade_carrier"
+		}
+
+		// VIP SIDEARM CARRIER (20)
+		"sec_sidearm_carrier"
 		{
-			"print_name"			"#gear_grenade_carrier"
-			"print_desc"			"#gear_grenade_carrier_desc"
+			"print_name"			"#gear_sidearm_carrier"
+			"print_desc"			"#gear_sidearm_carrier_desc"
 			"gear_slot"				"vest"
 			"gear_cost"				"3"
-			"gear_weight"				"180"
-			"class_restricted"			"1"
+			"gear_weight"			"180"
+			"class_restricted"		"1"
 			
 			"extra_ammo"
 			{
-				"primary"				"3"
 				"secondary"				"4"
 				
 				"explosive"
 				{
 					"1"					"1"
-					"2"					"1"
 				}
 			}
-			
 			"weapon_slots"
-			{	
-				"explosive"				"2"
+			{
+				"secondary"				"1"
+				"explosive"				"1"
 			}
-			
 			"player_model_bodygroups"
 			{
 				"kit"					"2"
 				"backpack"				"1"
 			}
 			"team_access"				"security"
-		}	
+		}
+		
+		// ========================================
+		// PERKS
+		// ========================================
+		
+		// QUARTERMASTER (21)
+		"perk_quartermaster"
+		{
+			"print_name"			"#perk_quartermaster"
+			"print_desc"			"#perk_quartermaster_desc"
+			"gear_slot"				"backpack"
+			"gear_cost"				"3"
+			"gear_weight"			"-80"
+			
+			"team_access"			"security, insurgent"
+		}
+		
+		// SKIRMISHER (22)
+		"perk_skirmisher"
+		{
+			"print_name"			"#perk_skirmisher"
+			"print_desc"			"#perk_skirmisher_desc"
+			"gear_slot"				"backpack"
+			"gear_cost"				"3"
+			"gear_weight"			"0"
+			
+			"team_access"			"security, insurgent"
+		}
+		
+		// VITALITY (23)
+		"perk_vitality"
+		{
+			"print_name"			"#perk_vitality"
+			"print_desc"			"#perk_vitality_desc"
+			"gear_slot"				"backpack"
+			"gear_cost"				"3"
+			"gear_weight"			"0"
+			
+			"team_access"			"security, insurgent"
+		}
 	}
 }

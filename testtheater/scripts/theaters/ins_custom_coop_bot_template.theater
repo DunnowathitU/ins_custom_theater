@@ -1,6 +1,7 @@
 "theater" 
 {
-	"player_templates" {
+	"player_templates"
+	{
 		
 		// 
 		// BEGIN BOT CLASS TEMPLATES
@@ -28,11 +29,12 @@
 				"gear"					"ins_heavy_armor"
 				"gear"					"ins_chest_carrier"
 				"weapon"				"weapon_gurkha"
-				"weapon"				"weapon_model10"
 				"weapon"				"weapon_m1a1"
 				"weapon_upgrade"		"ammo_tracer_m1a1"
-				"weapon_upgrade"		"ins_flashlight"
+				"weapon_upgrade"		"barrel_silencer_ins1"
 				"weapon_upgrade"		"ins_foregrip"
+				"weapon_upgrade"		"ins_flashlight"
+				"weapon"				"weapon_model10"
 				"weapon"				"weapon_molotov"
 			}
 			"allowed_items"
@@ -47,6 +49,7 @@
 				"weapon"				"weapon_m18"
 				"weapon"				"weapon_molotov"
 				"weapon"				"weapon_model10"
+				"weapon_upgrade"		"barrel_silencer_ins1"
 			}
 		}
 		
@@ -68,7 +71,7 @@
 			}
 			
 			"buy_order"
-			{
+			{	
 				"gear"					"ins_heavy_armor"
 				"gear"					"ins_chest_carrier"
 				"weapon"				"weapon_gurkha"
@@ -116,6 +119,8 @@
 				"weapon"				"weapon_rpk"
 				"gear"					"ins_chest_rig"
 				"weapon"				"weapon_m18"
+				
+				
 			}
 			"allowed_items"
 			{	
@@ -148,22 +153,23 @@
 			
 			"buy_order"
 			{
-				"gear"					"ins_light_armor"
-				"gear"					"ins_chest_rig"
+				"gear"					"ins_heavy_armor"
+				"gear"					"ins_chest_carrier"
 				"weapon"				"weapon_gurkha"
-				"weapon"				"weapon_mp40"
-				"weapon_upgrade"		"ins_flashlight"
+				"weapon"				"weapon_izh43"
+				"weapon_upgrade"		"upgrade_grease_other"
 				"weapon"				"weapon_model10"
-				"weapon"				"weapon_rpg7"
+				"weapon"				"weapon_m84"
 			}
 			"allowed_items"
 			{
-				"gear"					"ins_light_armor"
-				"gear"					"ins_chest_rig"
+				"gear"					"ins_heavy_armor"
+				"gear"					"ins_chest_carrier"
+				"weapon"				"weapon_gurkha"
 				"weapon"				"weapon_akm"
-				"weapon"				"weapon_mp40"
+				"weapon"				"weapon_izh43"
 				"weapon"				"weapon_model10"
-				"weapon"				"weapon_rpg7"
+				"weapon"				"weapon_m84"
 				"weapon"				"weapon_gurkha"
 			}
 		}
@@ -186,12 +192,13 @@
 			}
 			
 			"buy_order"
-			{
+			{	
 				"gear"					"ins_light_armor"
 				"gear"					"ins_chest_rig"
+				"weapon"				"weapon_gurkha"
 				"weapon"				"weapon_mosin"
 				"weapon_upgrade"		"7xscope_mosin"
-				"weapon"				"weapon_gurkha"
+				"weapon_upgrade"		"barrel_silencer_ins1"
 				"weapon"				"weapon_m1911"
 			}
 			
@@ -199,6 +206,7 @@
 			{
 				"gear"					"ins_light_armor"
 				"gear"					"ins_chest_rig"
+				"weapon"				"weapon_gurkha"
 				"weapon"				"weapon_mosin"
 				"weapon"				"weapon_sks"
 				"weapon"				"weapon_m1a1"
@@ -206,6 +214,79 @@
 				"weapon"				"weapon_m1911"
 				"weapon"				"weapon_m84"
 				"weapon"				"weapon_m18"
+				"weapon_upgrade"		"barrel_silencer_ins1"
+			}
+		}
+		
+		"template_coop_rocketeer"
+		{
+			"team"						"insurgents"
+			"print_name"				"#Squad_Cell_Rocketeer"
+			
+			"models"
+			{
+				"player"				"models/characters/insurgent_light.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_ins_l.mdl"
+			
+				"bodygroups"
+				{
+					"kit"					"0"
+					"backpack"				"0"
+				}
+			}
+			
+			"buy_order"
+			{	
+				"gear"					"ins_light_armor"
+				"gear"					"ins_chest_rig"
+				"weapon"				"weapon_gurkha"
+				"weapon"				"weapon_mp40"
+				"weapon_upgrade"		"ins_flashlight"
+				"weapon"				"weapon_rpg7"
+			}
+			"allowed_items"
+			{
+				"gear"					"ins_light_armor"
+				"gear"					"ins_chest_rig"
+				"weapon"				"weapon_gurkha"
+				"weapon"				"weapon_akm"
+				"weapon"				"weapon_mp40"
+				"weapon"				"weapon_rpg7"
+				"weapon"				"weapon_gurkha"
+			}
+		}
+		
+		"template_coop_bomber"
+		{
+			"team"						"insurgents"
+			"print_name"				"#Squad_Cell_Bomber"
+			
+			"models"
+			{
+				"player"				"models/characters/insurgent_light.mdl"
+				"viewmodel_hands"			"models/weapons/v_hands_ins_l.mdl"
+			
+				"bodygroups"
+				{
+					"kit"					"0"
+					"backpack"				"0"
+				}
+			}
+			"buy_order"
+			{
+				"gear"					"ins_bomber_armor"
+				"gear"					"ins_chest_rig"
+				"weapon"				"weapon_gurkha"
+				"weapon"				"weapon_m84"
+				"weapon"				"weapon_m84"
+			}
+			"allowed_items"
+			{	
+				"gear"					"ins_bomber_armor"
+				"gear"					"ins_chest_rig"
+				"weapon"				"weapon_gurkha"
+				"weapon"				"weapon_m84"
+				"gear"					"ins_bomber_armor"
 			}
 		}
 	}

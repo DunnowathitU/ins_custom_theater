@@ -1,4 +1,4 @@
-"#base" "base_weapon.theater"
+"#base" "ins_custom_base_weapon.theater"
 "#base" "base_explosives.theater"
 
 "theater"
@@ -15,13 +15,13 @@
 			"weapon_type"				"projectile"
 			"print_name"				"#weapon_rpg7"
 			"print_desc"				"#weapon_rpg7_desc"
-			"single_use"				"1"
+			//"single_use"				"1"
 			"view_model"				"models/weapons/v_rpg.mdl"
 			"world_model"				"models/weapons/w_rpg7.mdl"
 			"weapon_slot"				"explosive"
 			"weapon_max_subslot"			"0"	// can only be in the first explosive slot
 			"act_table"				"launcher"
-			"weapon_weight"				"192"
+			"weapon_weight"				"208"
 			"weapon_cost"				"5"
 			"weapon_abilities"			"ironsight"
 			"barrel_length"				"44"
@@ -54,7 +54,7 @@
 			}
 			"ammo_clip"
 			{
-				"ammo_type"				"no_carry"	// "rocket_rpg7"
+				"ammo_type"				"rocket_rpg7"	// "rocket_rpg7"
 				"clip_max_rounds"			"1"	// 1 rpg per mag
 				"clip_default"				"1"	// 1
 			}
@@ -96,7 +96,7 @@
 			"weapon_slot"				"explosive"
 			"weapon_max_subslot"		"0"	// can only be in the first explosive slot
 			"act_table"					"launcher_at4"
-			"weapon_weight"				"192"
+			"weapon_weight"				"208"
 			"weapon_cost"				"5"
 			"weapon_abilities"			"ironsight"
 			"barrel_length"				"40"
@@ -160,7 +160,7 @@
 		}
 		"weapon_m203_he"
 		{
-			"import"				"weapon_base"
+			"import"					"weapon_base"
 			"weapon_class"				"launcher"
 			"weapon_type"				"projectile"
 			"print_name"				"#weapon_m203_he"
@@ -168,8 +168,8 @@
 			"view_model"				"models/weapons/upgrades/a_gl_m203.mdl"
 			"world_model"				"models/weapons/upgrades/a_gl_m203.mdl"
 			"weapon_slot"				"primary"
-			"act_table"				"shortrifle"
-			"attached_act_suffix"			"_GLSETUP"
+			"act_table"					"shortrifle"
+			"attached_act_suffix"		"_GLSETUP"
 			"attached_gesture"			"delta_glsetup"
 			"weapon_weight"				"64"
 			"weapon_cost"				"0"
@@ -207,7 +207,7 @@
 			{
 				"ammo_type"				"grenade_m203_he"
 				"clip_max_rounds"			"1"	// 1 rpg per mag
-				"clip_default"				"0"
+				"clip_default"				"1"
 			}
 			"freeaim"
 			{
@@ -305,7 +305,7 @@
 			{
 				"ammo_type"				"grenade_m203_smoke"
 				"clip_max_rounds"			"1"	// 1 rpg per mag
-				"clip_default"				"0"
+				"clip_default"				"1"
 			}
 			"freeaim"
 			{
@@ -1082,8 +1082,8 @@
 			}
 			"recoil"
 			{
-				"recoil_lateral_range"			"-1.8 1.25"
-				"recoil_vertical_range"			"3.5 4.5"
+				"recoil_lateral_range"			"-0.8 0.25"
+				"recoil_vertical_range"			"1.5 2.5"
 				"recoil_aim_punch"				"0.4 0.6"
 				"recoil_rest_rate"				"4"
 				"recoil_rest_delay"				"0.2"
@@ -1296,8 +1296,8 @@
 			}
 			"recoil"
 			{
-				"recoil_lateral_range"			"-1.8 1.25"
-				"recoil_vertical_range"			"3.5 4.5"
+				"recoil_lateral_range"			"-0.8 0.25"
+				"recoil_vertical_range"			"1.5 2.5"
 				"recoil_aim_punch"				"0.4 0.6"
 				"recoil_rest_rate"				"4"
 				"recoil_rest_delay"				"0.2"
@@ -2007,9 +2007,7 @@
 			}
 			"team_access"				"insurgent"
 		}
-		
-		
-		
+
 		"weapon_ak74"
 		{
 			"import"				"ballistic_base"
@@ -3582,7 +3580,7 @@
 			"weapon_slot"				"primary"
 			"act_table"					"bolt"
 			"weapon_abilities"			"ironsight"
-			"weapon_weight"				"272"	// (6.6kg[weapon] + (0.2kg[ammo] * (1+16)[mags]) )*10[kg->hg for int]  +32[encumbrance]
+			"weapon_weight"				"240"	// (6.6kg[weapon] + (0.2kg[ammo] * (1+16)[mags]) )*10[kg->hg for int]  +32[encumbrance]
 			"barrel_length"				"38"
 			
 			"viewmodel_attachments"
@@ -3677,7 +3675,7 @@
 			"weapon_slot"				"primary"
 			"act_table"					"bolt"
 			"weapon_abilities"			"ironsight"
-			"weapon_weight"				"272"	// (4.0kg[weapon] + (0.2kg[ammo] * (1+16)[mags]) )*10[kg->hg for int]  +32[encumbrance]
+			"weapon_weight"				"240"	// (4.0kg[weapon] + (0.2kg[ammo] * (1+16)[mags]) )*10[kg->hg for int]  +32[encumbrance]
 			"barrel_length"				"38"
 			
 			"fov"
@@ -3979,7 +3977,7 @@
 			"entity_class"				"grenade_frag"
 			"Model"					"models/weapons/upgrades/a_projectile_m203.mdl"
 			
-			"DetonateDamage"			"170"
+			"DetonateDamage"			"210"
 			"DetonatePenetrationRadius"		"40"
 			"DetonateDamageRadius"			"600"
 			"FuseTime"				"0"
@@ -4042,7 +4040,7 @@
 		{
 			"entity_class"				"rocket"
 			"Model"					"models/weapons/w_at4_projectile.mdl"
-			"DetonateDamage"			"230"
+			"DetonateDamage"			"300"
 			"DetonateDamageRadius"			"1000"
 			"DetonatePenetrationRadius"		"200"
 			"RocketTopSpeed"			"3500"	// you cannot go faster than 3500
@@ -4067,7 +4065,7 @@
 		{
 			"entity_class"				"rocket"
 			"Model"					"models/weapons/w_rpg7_projectile.mdl"
-			"DetonateDamage"			"230"
+			"DetonateDamage"			"300"
 			"DetonateDamageRadius"			"1000"
 			"DetonatePenetrationRadius"		"200"
 			"RocketTopSpeed"			"3500"	// you cannot go faster than 3500
@@ -4123,8 +4121,8 @@
 			"entity_class"				"remote"
 			"Model"					"models/weapons/w_ied.mdl"
 			
-			"DetonateDamage"			"380"
-			"DetonateDamageRadius"			"1200"
+			"DetonateDamage"			"300"
+			"DetonateDamageRadius"			"900"
 			"DetonatePenetrationRadius"		"240"
 			"FuseTime"				"0.5"
 			
