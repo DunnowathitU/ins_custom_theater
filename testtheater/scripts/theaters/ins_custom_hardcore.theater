@@ -82,7 +82,7 @@
 					"#Squad_Cell_Fighter"			"template_coop_fighter"
 					"#Squad_Cell_Fighter"			"template_coop_fighter"
 					"#Squad_Cell_MachineGunner"		"template_coop_machinegunner"
-					"#Squad_Cell_Fighter"			"template_coop_fighter"
+					"#Squad_Cell_Militant"			"template_coop_militant"
 					"#Squad_Cell_MachineGunner"		"template_coop_machinegunner"
 				}
 				
@@ -90,12 +90,12 @@
 				{
 					// role name								preset
 					"#Squad_Cell_Leader_Specialist"	"template_coop_specialist"
-					"#Squad_Cell_Fighter"			"template_coop_fighter"
+					"#Squad_Cell_Militant"			"template_coop_militant"
 					"#Squad_Cell_Bomber"			"template_coop_bomber"
 					"#Squad_Cell_Fighter"			"template_coop_fighter"
 					"#Squad_Cell_SharpShooter"		"template_coop_sharpshooter"
-					"#Squad_Cell_Rocketeer"			"template_coop_rocketeer"
-					"#Squad_Cell_Rocketeer"			"template_coop_rocketeer"
+					"#Squad_Cell_Sapper"			"template_coop_sapper"
+					"#Squad_Cell_Sapper"			"template_coop_sapper"
 					"#Squad_Cell_SharpShooter"		"template_coop_sharpshooter"
 				}
 				

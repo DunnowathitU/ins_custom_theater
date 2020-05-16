@@ -1694,7 +1694,7 @@
 			"rounds_per_minute"			"650"
 			"weapon_slot"				"primary"
 			"act_table"					"rifle_ak"
-			"weapon_abilities"			"ironsight"
+			"weapon_abilities"			"ironsight, bipod"
 			"weapon_weight"				"178"	// (2.8kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +16[encumbrance]
 			"weapon_cost"				"3"
 			"barrel_length"				"28"
@@ -1712,6 +1712,12 @@
 					"model"						"models/weapons/upgrades/a_magazine_galil_35.mdl"
 					"fallback_for_slot"			"magazine"
 				}
+				
+				"standard_bipod"
+				{
+					"model"						"models/weapons/upgrades/a_bipod_galil.mdl"
+					"fallback_for_slot"			"underbarrel"
+				}
 			}
 			
 			"world_attachments"
@@ -1720,6 +1726,12 @@
 				{
 					"model"						"models/weapons/upgrades/w_magazine_galil_35.mdl"
 					"fallback_for_slot"			"magazine"
+				}
+
+				"standard_bipod"
+				{
+					"model"						"models/weapons/upgrades/w_bipod_galil.mdl"
+					"fallback_for_slot"			"underbarrel"
 				}
 			}
 			
@@ -1754,8 +1766,8 @@
 			}
 			"recoil"
 			{
-				"recoil_lateral_range"			"-1 1.4"
-				"recoil_vertical_range"			"2.5 3.2"
+				"recoil_lateral_range"			"-0.8 1.05"
+				"recoil_vertical_range"			"2 2.4"
 				"recoil_aim_punch"				"0.4 0.7"
 				"recoil_rest_rate"				"5"
 				"recoil_rest_delay"				"0.12"
@@ -1804,7 +1816,7 @@
 			"rounds_per_minute"			"650"
 			"weapon_slot"				"primary"
 			"act_table"					"rifle_ak"
-			"weapon_abilities"			"ironsight"
+			"weapon_abilities"			"ironsight, bipod"
 			"weapon_weight"				"178"	// (2.8kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +16[encumbrance]
 			"weapon_cost"				"3"
 			"barrel_length"				"24"
@@ -1822,6 +1834,12 @@
 					"model"						"models/weapons/upgrades/a_magazine_galil_35.mdl"
 					"fallback_for_slot"			"magazine"
 				}
+				
+				"standard_bipod"
+				{
+					"model"						"models/weapons/upgrades/a_bipod_galil.mdl"
+					"fallback_for_slot"			"underbarrel"
+				}
 			}
 			
 			"world_attachments"
@@ -1830,6 +1848,12 @@
 				{
 					"model"						"models/weapons/upgrades/w_magazine_galil_35.mdl"
 					"fallback_for_slot"			"magazine"
+				}
+				
+				"standard_bipod"
+				{
+					"model"						"models/weapons/upgrades/w_bipod_galil.mdl"
+					"fallback_for_slot"			"underbarrel"
 				}
 			}
 			
@@ -1864,8 +1888,8 @@
 			}
 			"recoil"
 			{
-				"recoil_lateral_range"			"-1 1.4"
-				"recoil_vertical_range"			"2.5 3.2"
+				"recoil_lateral_range"			"-0.8 1.05"
+				"recoil_vertical_range"			"2 2.4"
 				"recoil_aim_punch"				"0.4 0.7"
 				"recoil_rest_rate"				"5"
 				"recoil_rest_delay"				"0.12"
@@ -1939,7 +1963,7 @@
 			
 			"fov"
 			{
-				"priority"				"0"
+				"priority"					"0"
 				"fov_wpn_default"			"60"
 				"fov_wpn_ironsight"			"68"
 				"fov_wpn_focus"				"73"
@@ -3358,7 +3382,7 @@
 			"weapon_slot"				"primary"
 			"act_table"				"lmg"
 			"weapon_abilities"			"ironsight, bipod"
-			"weapon_weight"				"272"	// (7.5kg[weapon] + (2.5kg[ammo] * (1+1)[mags]) )*10[kg->hg for int]  +150[encumbrance]
+			"weapon_weight"				"320"	// (7.5kg[weapon] + (2.5kg[ammo] * (1+1)[mags]) )*10[kg->hg for int]  +150[encumbrance]
 			"closed_bolt"				"0"
 			"barrel_length"				"28"
 			
@@ -3437,7 +3461,7 @@
 				"ammo_type"				"556_m27"
 				"clip_max"				"4"
 				"clip_max_rounds"			"200"
-				"clip_default"				"1"
+				"clip_default"				"0"
 			}
 			"attachments"
 			{
@@ -3460,14 +3484,14 @@
 			"view_model"				"models/weapons/v_rpk.mdl"
 			"world_model"				"models/weapons/w_rpk.mdl"
 			"weapon_class"				"lmg"
-			"weapon_cost"				"4"
+			"weapon_cost"				"3"
 			"print_name"				"#weapon_rpk"
 			"print_desc"				"#weapon_rpk_desc"
 			"rounds_per_minute"			"600"
 			"weapon_slot"				"primary"
 			"act_table"					"rifle_ak"
 			"weapon_abilities"			"ironsight, bipod"
-			"weapon_weight"				"320"	// (4.8kg[weapon] + (2.0kg[ammo] * (1+2)[mags]) )*10[kg->hg for int]  +50[encumbrance]
+			"weapon_weight"				"280"	// (4.8kg[weapon] + (2.0kg[ammo] * (1+2)[mags]) )*10[kg->hg for int]  +50[encumbrance]
 			"barrel_length"				"26"
 			
 			"fov"

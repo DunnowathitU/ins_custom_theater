@@ -35,9 +35,9 @@
 				"weapon"				"weapon_aks74u"
 				
 				"weapon"				"weapon_l85a2"
-				"weapon"				"weapon_alphaak"
 				"weapon"				"weapon_vhs2"
 				"weapon"				"weapon_groza"
+				"weapon"				"weapon_honeybadger"
 			}
 		}
 		
@@ -106,15 +106,14 @@
 				"weapon"				"weapon_l85a2"
 				"weapon"				"weapon_groza"
 				"weapon"				"weapon_vector"
-				"weapon"				"weapon_alphaak"
 				"weapon"				"weapon_vhs2"
+				"weapon"				"weapon_honeybadger"
 			}
 
 			"viewmodel_attachments"
 			{
 				"magazine_m1a1"
 				{
-					"Act_Suffix"		"_MAG1"
 					"model"				"models/weapons/upgrades/a_magazine_m1a1_15.mdl"
 					"Main"				"1"
 
@@ -126,7 +125,6 @@
 
 				"magazine_galil"
 				{
-					"ActSuffix"			"_MAG1"
 					"model"				"models/weapons/upgrades/a_magazine_galil_35.mdl"
 					"Main"				"1"
 
@@ -658,7 +656,7 @@
 			"import"					"base_optic_rail"
 			"print_name"				"#weapon_upgrade_m1garand_scope_4x"
 			"print_desc"				"#weapon_upgrade_m1garand_scope_4x_desc"
-			"class_restricted"			"0"
+			"class_restricted"			"1"
 			"upgrade_cost"				"2"
 			"team_access"				"security, insurgent"
 			
@@ -814,12 +812,13 @@
 				"weapon"				"weapon_g3a3"
 				"weapon"				"weapon_mk17"
 				"weapon"				"weapon_vector"
-				"weapon"				"weapon_alphaak"
 				"weapon"				"weapon_vss"
 				"weapon"				"weapon_barrett"
 				"weapon"				"weapon_vhs2"
 				"weapon"				"weapon_svd"
 				"weapon"				"weapon_m79"
+				"weapon"				"weapon_honeybadger"
+				"weapon"				"weapon_rpk74"
 			}
 			
 			"viewmodel_attachments"
@@ -1059,7 +1058,31 @@
 			"ammo_type_override"		"9x39mm_ap_vss"
 		}
 		
-		// WELROD MK I AMMO
+		// AAC HONEY BADGER AMMO
+		
+		"ammo_hp_honeybadger"
+		{
+			"import"				"base_ammo_hp"
+			"upgrade_cost"			"2"
+			"allowed_weapons"
+			{
+				"weapons"				"weapon_honeybadger"
+			}
+			"ammo_type_override"		"300blk_hp_mag"
+		}
+		
+		"ammo_ap_honeybadger"
+		{
+			"import"				"base_ammo_ap"
+			"upgrade_cost"			"3"
+			"allowed_weapons"
+			{
+				"weapons"				"weapon_honeybadger"
+			}
+			"ammo_type_override"		"300blk_ap_mag"
+		}
+		
+		// WELROD AMMO
 		
 		"ammo_hp_welrod"
 		{
@@ -1097,6 +1120,30 @@
 				"weapons"				"weapon_svd"
 			}
 			"ammo_type_override"		"762x54mm_api_svd"
+		}
+		
+		// RPK AMMO
+		
+		"ammo_hp_rpk74"
+		{
+			"import"				"base_ammo_hp"
+			"upgrade_cost"			"1"
+			"allowed_weapons"
+			{
+				"weapons"				"weapon_rpk74"
+			}
+			"ammo_type_override"		"545x39_hp_45rd"
+		}
+		
+		"ammo_ap_rpk74"
+		{
+			"import"				"base_ammo_ap"
+			"upgrade_cost"			"2"
+			"allowed_weapons"
+			{
+				"weapons"				"weapon_rpk74"
+			}
+			"ammo_type_override"		"545x39_ap_45rd"
 		}
 	}
 }

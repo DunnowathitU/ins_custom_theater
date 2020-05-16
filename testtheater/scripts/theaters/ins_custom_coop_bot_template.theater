@@ -32,7 +32,6 @@
 				"weapon"				"weapon_m1a1"
 				"weapon_upgrade"		"ammo_tracer_m1a1"
 				"weapon_upgrade"		"barrel_silencer_ins1"
-				"weapon_upgrade"		"ins_foregrip"
 				"weapon_upgrade"		"ins_flashlight"
 				"weapon"				"weapon_model10"
 				"weapon"				"weapon_molotov"
@@ -75,8 +74,8 @@
 				"gear"					"ins_heavy_armor"
 				"gear"					"ins_chest_carrier"
 				"weapon"				"weapon_gurkha"
-				"weapon"				"weapon_akm"
-				"weapon_upgrade"		"ammo_tracer_akm"
+				"weapon"				"weapon_ak74"
+				"weapon_upgrade"		"ammo_tracer_ak74"
 				"weapon_upgrade"		"ins_flashlight"
 				"weapon"				"weapon_f1"
 			}
@@ -86,6 +85,7 @@
 				"gear"					"ins_chest_carrier"
 				"weapon"				"weapon_gurkha"
 				"weapon"				"weapon_akm"
+				"weapon"				"weapon_ak74"
 				"weapon"				"weapon_aks74u"
 				"weapon"				"weapon_sks"
 				"weapon"				"weapon_molotov"
@@ -152,24 +152,22 @@
 			}
 			
 			"buy_order"
-			{
-				"gear"					"ins_heavy_armor"
-				"gear"					"ins_chest_carrier"
+			{	
+				"gear"					"ins_light_armor"
+				"gear"					"ins_chest_rig"
 				"weapon"				"weapon_gurkha"
-				"weapon"				"weapon_izh43"
-				"weapon_upgrade"		"upgrade_grease_other"
-				"weapon"				"weapon_model10"
-				"weapon"				"weapon_m84"
+				"weapon"				"weapon_mp40"
+				"weapon_upgrade"		"ins_flashlight"
+				"weapon"				"weapon_rpg7"
 			}
 			"allowed_items"
 			{
-				"gear"					"ins_heavy_armor"
-				"gear"					"ins_chest_carrier"
+				"gear"					"ins_light_armor"
+				"gear"					"ins_chest_rig"
 				"weapon"				"weapon_gurkha"
 				"weapon"				"weapon_akm"
-				"weapon"				"weapon_izh43"
-				"weapon"				"weapon_model10"
-				"weapon"				"weapon_m84"
+				"weapon"				"weapon_mp40"
+				"weapon"				"weapon_rpg7"
 				"weapon"				"weapon_gurkha"
 			}
 		}
@@ -197,7 +195,7 @@
 				"gear"					"ins_chest_rig"
 				"weapon"				"weapon_gurkha"
 				"weapon"				"weapon_mosin"
-				"weapon_upgrade"		"7xscope_mosin"
+				"weapon_upgrade"		"optic_scope_7x"
 				"weapon_upgrade"		"barrel_silencer_ins1"
 				"weapon"				"weapon_m1911"
 			}
@@ -215,18 +213,19 @@
 				"weapon"				"weapon_m84"
 				"weapon"				"weapon_m18"
 				"weapon_upgrade"		"barrel_silencer_ins1"
+				"weapon_upgrade"		"optic_scope_7x"
 			}
 		}
 		
-		"template_coop_rocketeer"
+		"template_coop_militant"
 		{
 			"team"						"insurgents"
-			"print_name"				"#Squad_Cell_Rocketeer"
+			"print_name"				"#Squad_Cell_Militant"
 			
 			"models"
 			{
 				"player"				"models/characters/insurgent_light.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_ins_l.mdl"
+				"viewmodel_hands"			"models/weapons/v_hands_ins_l.mdl"
 			
 				"bodygroups"
 				{
@@ -234,25 +233,24 @@
 					"backpack"				"0"
 				}
 			}
-			
+				
 			"buy_order"
-			{	
-				"gear"					"ins_light_armor"
-				"gear"					"ins_chest_rig"
-				"weapon"				"weapon_gurkha"
-				"weapon"				"weapon_mp40"
-				"weapon_upgrade"		"ins_flashlight"
-				"weapon"				"weapon_rpg7"
+			{
+				"gear"				"ins_light_armor"
+				"gear"				"ins_chest_carrier"
+				"weapon"			"weapon_gurkha"
+				"weapon"			"weapon_fal"
+				"weapon_upgrade"	"ins_flashlight"
+				"weapon"			"weapon_m84"
 			}
+			
 			"allowed_items"
 			{
-				"gear"					"ins_light_armor"
-				"gear"					"ins_chest_rig"
-				"weapon"				"weapon_gurkha"
-				"weapon"				"weapon_akm"
-				"weapon"				"weapon_mp40"
-				"weapon"				"weapon_rpg7"
-				"weapon"				"weapon_gurkha"
+				"gear"				"ins_light_armor"
+				"gear"				"ins_chest_rig"
+				"weapon"			"weapon_gurkha"
+				"weapon"			"weapon_fal"
+				"weapon"			"weapon_m84"
 			}
 		}
 		
@@ -270,6 +268,7 @@
 				{
 					"kit"					"0"
 					"backpack"				"0"
+					"glasses"				"1"
 				}
 			}
 			"buy_order"

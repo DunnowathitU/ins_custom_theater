@@ -200,7 +200,7 @@
 			"upgrade_cost"				"3"
 			"class_restricted"			"1"
 			"team_acces"				"security, insurgent"
-			"weight"					"96"
+			"weight"					"64"
 			
 			"print_name"				"#weapon_upgrade_magazine_drum"
 			"print_desc"				"#weapon_upgrade_magazine_extended_desc"
@@ -287,6 +287,7 @@
 				"weapon"				"weapon_mk17"
 				"weapon"				"weapon_m107"
 				"weapon"				"weapon_vhs2"
+				"weapon"				"weapon_honeybadger"
 				
 			}
 			"viewmodel_attachments"
@@ -382,9 +383,9 @@
 				"weapon"				"weapon_ots33"
 				"weapon"				"weapon_g3a3"
 				"weapon"				"weapon_vector"
-				"weapon"				"weapon_alphaak"
 				"weapon"				"weapon_vss"
 				"weapon"				"weapon_svd"
+				"weapon"				"weapon_rpk74"
 			}
 			
 			"viewmodel_attachments"
@@ -526,7 +527,6 @@
 				
 				// MODDED SECTION
 				"weapon"				"weapon_l85a2"
-				"weapon"				"weapon_alphaak"
 				"weapon"				"weapon_vhs2"
 			}
 		}
@@ -551,6 +551,8 @@
 						"weapon"				"weapon_akm"
 						"weapon"				"weapon_ak74"
 						"weapon"				"weapon_rpk"
+						
+						"weapon"				"weapon_rpk74"
 					}
 				}
 				
@@ -607,7 +609,6 @@
 					{
 						"weapon"				"weapon_mp40"
 						"weapon"				"weapon_sks"
-						"weapon"				"weapon_svd"
 					}
 				}
 				
@@ -695,6 +696,17 @@
 						"weapon"				"weapon_g3a3"
 					}
 				}
+				
+				// SVD Modkit
+				"ModKitSVD"					
+				{
+					"model"					"models/insgwep/upgrades/a_svdkit_04.mdl"
+					
+					"weapons"
+					{
+						"weapon"				"weapon_svd"
+					}
+				}
 			}
 			
 			"world_attachments"
@@ -709,6 +721,8 @@
 						"weapon"				"weapon_akm"
 						"weapon"				"weapon_ak74"
 						"weapon"				"weapon_rpk"
+						
+						"weapon"				"weapon_rpk74"
 					}
 				}
 				
@@ -821,7 +835,7 @@
 				}
 				
 				// SVD modkit
-				"ModKit04"
+				"ModKitSVD"
 				{
 					"model"					"models/insgwep/upgrades/a_svdkit_04.mdl"
 					
@@ -880,12 +894,13 @@
 				"weapon"				"weapon_g3a3"
 				"weapon"				"weapon_mk17"
 				"weapon"				"weapon_vector"
-				"weapon"				"weapon_alphaak"
 				"weapon"				"weapon_vss"
 				"weapon"				"weapon_m107"
 				"weapon"				"weapon_vhs2"
 				"weapon"				"weapon_svd"
 				"weapon"				"weapon_m500"
+				"weapon"				"weapon_honeybadger"
+				"weapon"				"weapon_rpk74"
 			}
 			
 			"viewmodel_attachments"
@@ -1160,12 +1175,6 @@
 					"fov_wpn_focus"				"56"
 				}
 				
-				"weapon_alphaak"
-				{
-					"fov_wpn_ironsight"			"60"
-					"fov_wpn_focus"				"67"
-				}
-				
 				"weapon_vss"
 				{
 					"fov_wpn_ironsight"			"48"
@@ -1194,7 +1203,19 @@
 				{
 					"fov_wpn_ironsight"			"60"
 					"fov_wpn_focus"				"68"
-				}	
+				}
+
+				"weapon_honeybadger"
+				{
+					"fov_wpn_ironsight"			"59"
+					"fov_wpn_focus"				"67"
+				}		
+
+				"weapon_rpk74"
+				{
+					"fov_wpn_ironsight"			"61"
+					"fov_wpn_focus"				"67"
+				}
 			}
 		}
 		
@@ -1244,12 +1265,13 @@
 				"weapon"				"weapon_g3a3"
 				"weapon"				"weapon_mk17"
 				"weapon"				"weapon_vector"
-				"weapon"				"weapon_alphaak"
 				"weapon"				"weapon_vss"
 				"weapon"				"weapon_barrett"
 				"weapon"				"weapon_vhs2"
 				"weapon"				"weapon_sw500"
 				"weapon"				"weapon_svd"
+				"weapon"				"weapon_honeybadger"
+				"weapon"				"weapon_rpk74"
 				"weapon"				"weapon_m500"
 			}
 			
@@ -1504,12 +1526,6 @@
 					"fov_wpn_focus"				"60"
 				}
 				
-				"weapon_alphaak"
-				{
-					"fov_wpn_ironsight"			"58"
-					"fov_wpn_focus"				"62"
-				}
-				
 				"weapon_vss"
 				{
 					"fov_wpn_ironsight"			"53"
@@ -1544,7 +1560,19 @@
 				{
 					"fov_wpn_ironsight"			"58"
 					"fov_wpn_focus"				"62"
+				}
+
+				"weapon_honeybadger"
+				{
+					"fov_wpn_ironsight"			"58"
+					"fov_wpn_focus"				"66"
 				}	
+
+				"weapon_rpk"
+				{
+					"fov_wpn_ironsight"			"54"
+					"fov_wpn_focus"				"58"
+				}
 			}
 		}
 		
@@ -1592,12 +1620,12 @@
 				"weapon"				"weapon_g3a3"
 				"weapon"				"weapon_mk17"
 				"weapon"				"weapon_vector"
-				"weapon"				"weapon_alphaak"
 				"weapon"				"weapon_vss"
 				"weapon"				"weapon_m107"
 				"weapon"				"weapon_vhs2"
 				"weapon"				"weapon_svd"
-				
+				"weapon"				"weapon_honeybadger"
+				"weapon"				"weapon_rpk74"
 			}
 			
 			"viewmodel_attachments"
@@ -1620,6 +1648,7 @@
 						// MODDED SECTION
 						"weapon"				"weapon_l85a2"
 						"weapon"				"weapon_vhs2"
+						"weapon"				"weapon_honeybadger"
 					}
 				}
 				
@@ -1641,6 +1670,7 @@
 						// MODDED SECTION
 						"weapon"				"weapon_l85a2"
 						"weapon"				"weapon_vhs2"
+						"weapon"				"weapon_honeybadger"
 					}
 				}
 			}
@@ -1835,12 +1865,6 @@
 					"fov_wpn_focus"				"60"
 				}
 				
-				"weapon_alphaak"
-				{
-					"fov_wpn_ironsight"			"52"
-					"fov_wpn_focus"				"58"
-				}
-				
 				"weapon_vss"
 				{
 					"fov_wpn_ironsight"			"55"
@@ -1862,6 +1886,18 @@
 				"weapon_svd"
 				{
 					"fov_wpn_ironsight"			"58"
+					"fov_wpn_focus"				"60"
+				}
+				
+				"weapon_honeybadger"
+				{
+					"fov_wpn_ironsight"			"70"
+					"fov_wpn_focus"				"72"
+				}
+				
+				"weapon_rpk74"
+				{
+					"fov_wpn_ironsight"			"55"
 					"fov_wpn_focus"				"60"
 				}
 			}
@@ -1914,13 +1950,14 @@
 				"weapon"				"weapon_g3a3"
 				"weapon"				"weapon_mk17"
 				"weapon"				"weapon_vector"
-				"weapon"				"weapon_alphaak"
 				"weapon"				"weapon_vss"
 				"weapon"				"weapon_m107"
 				"weapon"				"weapon_vhs2"
 				"weapon"				"weapon_sw500"
 				"weapon"				"weapon_svd"
 				"weapon"				"weapon_m500"
+				"weapon"				"weapon_honeybadger"
+				"weapon"				"weapon_rpk74"
 			}
 			
 			"viewmodel_attachments"
@@ -1978,6 +2015,7 @@
 						"weapon"				"weapon_vss"
 						"weapon"				"weapon_vhs2"
 						"weapon"				"weapon_sw500"
+						"weapon"				"weapon_honeybadger"
 					}
 				}
 				
@@ -1993,6 +2031,7 @@
 					{
 						"weapon"				"weapon_mk18"
 						// "weapon"			"weapon_m249"
+						"weapon"				"weapon_honeybadger"
 					}
 				}
 				"Eotech_XLarge"
@@ -2217,12 +2256,6 @@
 					"fov_wpn_focus"				"64"
 				}
 				
-				"weapon_alphaak"
-				{
-					"fov_wpn_ironsight"			"72"
-					"fov_wpn_focus"				"80"
-				}
-				
 				"weapon_vss"
 				{
 					"fov_wpn_ironsight"			"46"
@@ -2251,6 +2284,18 @@
 				{
 					"fov_wpn_ironsight"			"62"
 					"fov_wpn_focus"				"68"
+				}
+				
+				"weapon_honeybadger"
+				{
+					"fov_wpn_ironsight"			"76"
+					"fov_wpn_focus"				"82"
+				}
+				
+				"weapon_rpk74"
+				{
+					"fov_wpn_ironsight"			"70"
+					"fov_wpn_focus"				"78"
 				}
 			}
 		}
@@ -2302,13 +2347,14 @@
 				"weapon"				"weapon_g3a3"
 				"weapon"				"weapon_mk17"
 				"weapon"				"weapon_vector"
-				"weapon"				"weapon_alphaak"
 				"weapon"				"weapon_vss"
 				"weapon"				"weapon_m107"
 				"weapon"				"weapon_vhs2"
 				"weapon"				"weapon_sw500"
 				"weapon"				"weapon_svd"
 				"weapon"				"weapon_m500"
+				"weapon"				"weapon_honeybadger"
+				"weapon"				"weapon_rpk74"
 			}
 			
 			"viewmodel_attachments"
@@ -2583,12 +2629,6 @@
 					"fov_wpn_focus"				"63"
 				}
 				
-				"weapon_alphaak"
-				{
-					"fov_wpn_ironsight"			"65"
-					"fov_wpn_focus"				"70"
-				}
-				
 				"weapon_vss"
 				{
 					"fov_wpn_ironsight"			"49"
@@ -2623,6 +2663,18 @@
 				{
 					"fov_wpn_ironsight"			"61"
 					"fov_wpn_focus"				"70"
+				}
+				
+				"weapon_honeybadger"
+				{
+					"fov_wpn_ironsight"			"65"
+					"fov_wpn_focus"				"75"
+				}
+				
+				"weapon_rpk74"
+				{
+					"fov_wpn_ironsight"			"61"
+					"fov_wpn_focus"				"66"
 				}
 			}
 		}
@@ -2664,9 +2716,10 @@
 				"weapon"				"weapon_groza"
 				"weapon"				"weapon_g3a3"
 				"weapon"				"weapon_vector"
-				"weapon"				"weapon_alphaak"
 				"weapon"				"weapon_vss"
 				"weapon"				"weapon_svd"
+				"weapon"				"weapon_honeybadger"
+				"weapon"				"weapon_rpk74"
 			}
 			
 			"viewmodel_attachments"
@@ -2911,12 +2964,6 @@
 					"fov_wpn_focus"				"52"
 				}
 				
-				"weapon_alphaak"
-				{
-					"fov_wpn_ironsight"			"59"
-					"fov_wpn_focus"				"61"
-				}
-				
 				"weapon_vss"
 				{
 					"fov_wpn_ironsight"			"45"
@@ -2927,7 +2974,19 @@
 				{
 					"fov_wpn_ironsight"			"53"
 					"fov_wpn_focus"				"57"
-				}		
+				}	
+
+				"weapon_honeybadger"
+				{
+					"fov_wpn_ironsight"			"64"
+					"fov_wpn_focus"				"68"
+				}
+
+				"weapon_rpk74"
+				{
+					"fov_wpn_ironsight"			"67"
+					"fov_wpn_focus"				"70"
+				}				
 			}
 		}
 		
@@ -3312,7 +3371,6 @@
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_ak74"
-				"weapon"				"weapon_alphaak"
 			}
 			"ammo_type_override"			"545x39_tracer"
 		}
@@ -3323,7 +3381,6 @@
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_ak74"
-				"weapon"				"weapon_alphaak"
 			}
 			"ammo_type_override"			"545x39_hp"
 		}
@@ -3334,7 +3391,6 @@
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_ak74"
-				"weapon"				"weapon_alphaak"
 			}
 			"ammo_type_override"			"545x39_ap"
 		}
@@ -3843,7 +3899,7 @@
 				"weapon"				"weapon_m1a1"
 				"weapon"				"weapon_sks"
 				"weapon"				"weapon_fal"
-				"weapon"				"weapon_galil"
+				//"weapon"				"weapon_galil"
 
 				"weapon"				"weapon_svd"
 			}
@@ -3928,7 +3984,6 @@
 				// MODDED SECTION
 				
 				"weapon"				"weapon_groza"
-				"weapon"				"weapon_alphaak"
 			}
 			"viewmodel_attachments"
 			{
@@ -3985,18 +4040,6 @@
 						"weapon"				"weapon_groza"
 					}
 				}
-				
-				"Foregrip_AlphaAK"
-				{
-					"model"					"models/weapons/upgrades/a_woodgrips_akalpha.mdl"
-					"Gesture"				"delta_foregrip"
-					"ActSuffix"				"_FOREGRIP"
-					
-					"weapons"
-					{
-						"weapon"				"weapon_alphaak"
-					}
-				}
 			}
 			
 			"world_attachments"
@@ -4046,18 +4089,6 @@
 						"weapon"				"weapon_groza"
 					}
 				}
-				
-				"Foregrip_AlphaAK"
-				{
-					"model"					"models/weapons/upgrades/w_foregrip_wood_akalpha.mdl"
-					"Gesture"				"delta_foregrip"
-					"ActSuffix"				"_FOREGRIP"
-					
-					"weapons"
-					{
-						"weapon"				"weapon_alphaak"
-					}
-				}
 			}
 		}
 		"underbarrel_foregrip_sec1"
@@ -4074,6 +4105,7 @@
 				// MODDED SECTION
 				"weapon"				"weapon_l85a2"
 				"weapon"				"weapon_vhs2"
+				"weapon"				"weapon_honeybadger"
 				
 			}
 			"viewmodel_attachments"
@@ -4093,6 +4125,7 @@
 						// MODDED SECTION
 						"weapon_l85a2"				"0.5"
 						"weapon_vhs2"				"0.5"
+						"weapon_honeybadger"		"0.5"
 					}
 				}
 				"Standard_M16A4"
@@ -4168,7 +4201,7 @@
 				"weapon"				"weapon_m14"
 				"weapon"				"weapon_mini14"
 				"weapon"				"weapon_m590"
-				"weapon"				"weapon_galil_sar"
+				//"weapon"				"weapon_galil_sar"
 				"weapon"				"weapon_l1a1"
 				
 				// MODDED SECTION
@@ -4352,7 +4385,6 @@
 				// MODDED SECTION
 				
 				"weapon"				"weapon_groza"
-				"weapon"				"weapon_alphaak"
 				"weapon"				"weapon_svd"
 			}
 			
@@ -4395,7 +4427,6 @@
 					{
 						"weapon"				"weapon_akm"
 						"weapon"				"weapon_ak74"
-						"weapon"				"weapon_alphaak"
 					}
 				}
 				
@@ -4538,6 +4569,7 @@
 				"weapon"				"weapon_m240"
 				"weapon"				"weapon_m1014"
 				"weapon"				"weapon_m500"
+				"weapon"				"weapon_rpk74"
 			}
 			
 			"viewmodel_attachments"
@@ -4561,6 +4593,8 @@
 					"weapons"
 					{
 						"weapon"				"weapon_rpk"
+						
+						"weapon"				"weapon_rpk74"
 					}
 				}
 				
@@ -4598,6 +4632,8 @@
 					{
 						"weapon"				"weapon_rpk"
 						"weapon"				"weapon_toz"
+						
+						"weapon"				"weapon_rpk74"
 					}
 				}
 				
@@ -4635,6 +4671,7 @@
 				"weapon"				"weapon_mk17"
 				"weapon"				"weapon_m107"
 				"weapon"				"weapon_vhs2"
+				"weapon"				"weapon_honeybadger"
 				
 			}
 			"viewmodel_attachments"
@@ -4731,9 +4768,9 @@
 				"weapon"				"weapon_ots33"
 				"weapon"				"weapon_g3a3"
 				"weapon"				"weapon_vector"
-				"weapon"				"weapon_alphaak"
 				"weapon"				"weapon_vss"
 				"weapon"				"weapon_svd"
+				"weapon"				"weapon_rpk74"
 				
 			}
 			"viewmodel_attachments"
@@ -4864,8 +4901,8 @@
 				"weapon"				"weapon_l1a1"
 				"weapon"				"weapon_mosin"
 				"weapon"				"weapon_sks"
-				"weapon"				"weapon_galil"
-				"weapon"				"weapon_galil_sar"
+				//"weapon"				"weapon_galil"
+				//"weapon"				"weapon_galil_sar"
 				
 				// modded
 				
@@ -5155,18 +5192,6 @@
 						"weapon"				"weapon_ak74"
 					}
 				}
-				
-				// MODDED SECTION
-				
-				"Standard_AlphaAK"
-				{
-					"model"					"models/weapons/upgrades/a_standard_akalpha.mdl"
-					
-					"weapons"
-					{
-						"weapon"				"weapon_alphaak"
-					}
-				}
 			}
 			
 			"world_attachments"
@@ -5195,26 +5220,12 @@
 						"weapon"				"weapon_ak74"
 					}
 				}
-				
-				// MODDED SECTION
-				
-				"Standard_AlphaAK"
-				{
-					"model"					"models/weapons/upgrades/w_standard_akalpha.mdl"
-					
-					"weapons"
-					{
-						"weapon"				"weapon_alphaak"
-					}
-				}
 			}
 			
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_akm"
 				"weapon"				"weapon_ak74"
-				
-				"weapon"				"weapon_alphaak"
 			}
 		}
 		

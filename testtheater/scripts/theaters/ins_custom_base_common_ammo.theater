@@ -746,14 +746,13 @@
 			"Damage"
 			{
 				"800"					"70"
-				"2000"					"35"
+				"2000"					"50"
 				"7000"					"15"
 			}
 			"PenetrationPower"
 			{
-				"10"					"400"
-				"2000"					"200"
-				"8000"					"20"
+				"10"					"300"
+				"8000"					"40"
 			}
 			"DamageHitgroups"
 			{
@@ -786,6 +785,8 @@
 		// Modded ammo types
 		// ========================================
 		
+		// 9x39
+		
 		"9x39"
 		{
 			"import"				"default"
@@ -794,13 +795,15 @@
 			
 			"Damage"
 			{
-				"10"					"120"
-				"12000"					"80"
+				"10"					"140"
+				"4000"					"100"
+				"12000"					"60"
 			}
 			"PenetrationPower"
 			{
 				"10"					"900"
-				"12000"					"400"
+				"4000"					"600"
+				"12000"					"200"
 			}
 		}
 		
@@ -820,7 +823,8 @@
 			"PenetrationPower"
 			{
 				"10"					"600"
-				"12000"					"200"
+				"4000"					"400"
+				"12000"					"100"
 			}
 		}
 					
@@ -839,8 +843,9 @@
 			}
 			"PenetrationPower"
 			{
-				"10"					"1200"
-				"12000"					"500"
+				"10"					"1500"
+				"4000"					"1200"
+				"12000"					"600"
 			}
 		}
 		
@@ -1236,7 +1241,7 @@
 		"556_m27"
 		{
 			"import"				"556x45"
-			"carry"					"6"
+			"carry"					"4"
 			"magsize"				"200"
 			"tracer_frequency"			"4"
 			"tracer_type"				"whiz_with_line"
@@ -1245,7 +1250,7 @@
 		"556_m27_hp"
 		{
 			"import"				"556x45_hp"
-			"carry"					"6"
+			"carry"					"4"
 			"magsize"				"200"
 			"tracer_frequency"			"4"
 			"tracer_type"				"whiz_with_line"
@@ -1254,7 +1259,7 @@
 		"556_m27_ap"
 		{
 			"import"				"556x45_ap"
-			"carry"					"6"
+			"carry"					"4"
 			"magsize"				"200"
 			"tracer_frequency"			"4"
 			"tracer_type"				"whiz_with_line"
@@ -1427,6 +1432,7 @@
 		{
 			"import"				"762x51"
 			"magsize"				"100"
+			"carry"					"4"
 			"tracer_frequency"		"4"
 			"tracer_type"			"whiz_with_line"
 			"tracer_lowammo"		"9"
@@ -1436,6 +1442,7 @@
 		{
 			"import"				"762x51_ap"
 			"magsize"				"100"
+			"carry"					"4"
 			"tracer_frequency"		"4"
 			"tracer_type"			"whiz_with_line"
 			"tracer_lowammo"		"9"
@@ -1445,6 +1452,7 @@
 		{
 			"import"				"762x51_hp"
 			"magsize"				"100"
+			"carry"					"4"
 			"tracer_frequency"		"4"
 			"tracer_type"			"whiz_with_line"
 			"tracer_lowammo"		"9"
@@ -1516,19 +1524,19 @@
 			
 			"Damage"
 			{
-				"1"						"90"
-				"100"					"90"
+				"1"						"75"
+				"100"					"75"
 				"5000"					"48"
 			}
 			"DamageHitgroups"
 			{
-				"HITGROUP_HEAD"				"4.00"
-				"HITGROUP_CHEST"			"2.40"
-				"HITGROUP_STOMACH"			"2.40"
-				"HITGROUP_LEFTARM"			"1.30"
-				"HITGROUP_RIGHTARM"			"1.30"
-				"HITGROUP_LEFTLEG"			"1.30"
-				"HITGROUP_RIGHTLEG"			"1.30"
+				"HITGROUP_HEAD"				"3.00"
+				"HITGROUP_CHEST"			"1.80"
+				"HITGROUP_STOMACH"			"1.80"
+				"HITGROUP_LEFTARM"			"1.00"
+				"HITGROUP_RIGHTARM"			"1.00"
+				"HITGROUP_LEFTLEG"			"1.00"
+				"HITGROUP_RIGHTLEG"			"1.00"
 			}
 		}
 		
@@ -1540,8 +1548,8 @@
 			
 			"Damage"
 			{
-				"1"						"90"
-				"100"					"90"
+				"1"						"75"
+				"100"					"75"
 				"5000"					"48"
 			}
 			"DamageHitgroups"
@@ -1549,10 +1557,10 @@
 				"HITGROUP_HEAD"				"1.30"
 				"HITGROUP_CHEST"			"1.10"
 				"HITGROUP_STOMACH"			"1.20"
-				"HITGROUP_LEFTARM"			"4.00"
-				"HITGROUP_RIGHTARM"			"4.00"
-				"HITGROUP_LEFTLEG"			"6.00"
-				"HITGROUP_RIGHTLEG"			"6.00"
+				"HITGROUP_LEFTARM"			"3.00"
+				"HITGROUP_RIGHTARM"			"3.00"
+				"HITGROUP_LEFTLEG"			"4.50"
+				"HITGROUP_RIGHTLEG"			"4.50"
 			}			
 		}
 		
@@ -1564,15 +1572,15 @@
 			
 			"Damage"
 			{
-				"1"						"90"
-				"100"					"90"
+				"1"						"75"
+				"100"					"75"
 				"5000"					"48"
 			}
 			"DamageHitgroups"
 			{
-				"HITGROUP_HEAD"				"6.00"
-				"HITGROUP_CHEST"			"4.00"
-				"HITGROUP_STOMACH"			"4.00"
+				"HITGROUP_HEAD"				"4.50"
+				"HITGROUP_CHEST"			"3.00"
+				"HITGROUP_STOMACH"			"3.00"
 				"HITGROUP_LEFTARM"			"1.20"
 				"HITGROUP_RIGHTARM"			"1.20"
 				"HITGROUP_LEFTLEG"			"1.20"
@@ -1615,6 +1623,104 @@
 				"HITGROUP_LEFTLEG"			"3.70"
 				"HITGROUP_RIGHTLEG"			"3.70"
 			}
+		}
+		
+		// ========================================
+		// HONEY BADGER
+		// ========================================
+		
+		"300blk_mag"
+		{
+			"import"				"556x45"
+			"carry"					"12"
+			"magsize"				"30"
+			
+			"Damage"
+			{
+				"10"					"140"
+				"2000"					"100"
+				"12000"					"30"
+			}
+			"PenetrationPower"
+			{
+				"10"					"800"
+				"2000"					"600"
+				"12000"					"125"
+			}
+		}
+		
+		"300blk_hp_mag"
+		{
+			"import"				"556x45_hp"
+			"carry"					"12"
+			"magsize"				"30"
+			
+			"Damage"
+			{
+				"10"					"140"
+				"2000"					"100"
+				"12000"					"30"
+			}
+			"PenetrationPower"
+			{
+				"10"					"600"
+				"2000"					"400"
+				"12000"					"100"
+			}
+		}
+		
+		"300blk_ap_mag"
+		{
+			"import"				"300blk_mag"
+			"carry"					"12"
+			"magsize"				"30"
+			
+			"Damage"
+			{
+				"10"					"140"
+				"2000"					"100"
+				"12000"					"30"
+			}
+			"PenetrationPower"
+			{
+				"10"					"1350"
+				"2000"					"1100"
+				"12000"					"300"
+			}
+		}
+		
+		// ========================================
+		// RPK-74
+		// ========================================
+		
+		"545x39_45rd"
+		{
+			"import"				"545x39"
+			"carry"					"12"
+			"magsize"				"45"
+			"tracer_frequency"		"3"
+			"tracer_type"			"whiz_with_line"
+			"tracer_lowammo"		"7"
+		}
+		
+		"545x39_hp_45rd"
+		{
+			"import"				"545x39_hp"
+			"carry"					"12"
+			"magsize"				"45"
+			"tracer_frequency"		"3"
+			"tracer_type"			"whiz_with_line"
+			"tracer_lowammo"		"7"
+		}
+		
+		"545x39_ap_45rd"
+		{
+			"import"				"545x39_ap"
+			"carry"					"12"
+			"magsize"				"45"
+			"tracer_frequency"		"3"
+			"tracer_type"			"whiz_with_line"
+			"tracer_lowammo"		"7"
 		}
 
 		// ========================================

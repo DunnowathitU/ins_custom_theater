@@ -19,13 +19,13 @@
 			"DamageHitgroups"
 			{	
 				"HITGROUP_HEAD"			"1.0"
-				"HITGROUP_CHEST"		"0.8"
-				"HITGROUP_STOMACH"		"0.8"
+				"HITGROUP_CHEST"		"0.7"
+				"HITGROUP_STOMACH"		"0.7"
 			}
 			
 			"penetration_power_required" "100"
 			"penetration_power_loss"	"120"
-			"explosive_damage_frac"		"0.8"
+			"explosive_damage_frac"		"0.7"
 			
 			"player_model_override"		"models/characters/security_standard.mdl"
 			"viewmodel_hands_override"	"models/weapons/v_hands_sec_l.mdl"
@@ -46,13 +46,13 @@
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"			"1.0"
-				"HITGROUP_CHEST"		"0.8"
-				"HITGROUP_STOMACH"		"0.8"
+				"HITGROUP_CHEST"		"0.7"
+				"HITGROUP_STOMACH"		"0.7"
 			}
 			
 			"penetration_power_required" "100"
 			"penetration_power_loss"	"120"
-			"explosive_damage_frac"		"0.8"
+			"explosive_damage_frac"		"0.7"
 			
 			"player_model_override"		"models/characters/insurgent_standard.mdl"
 			"viewmodel_hands_override"	"models/weapons/v_hands_ins_l.mdl"
@@ -73,13 +73,13 @@
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"			"1.0"
-				"HITGROUP_CHEST"		"0.6"
-				"HITGROUP_STOMACH"		"0.6"
+				"HITGROUP_CHEST"		"0.55"
+				"HITGROUP_STOMACH"		"0.55"
 			}
 			
 			"penetration_power_required" "165"
 			"penetration_power_loss"	"185"
-			"explosive_damage_frac"		"0.6"
+			"explosive_damage_frac"		"0.5"
 			
 			"player_model_override"		"models/characters/security_heavy.mdl"
 			"viewmodel_hands_override"	"models/weapons/v_hands_sec_h.mdl"
@@ -100,13 +100,13 @@
 			"DamageHitgroups"
 			{	
 				"HITGROUP_HEAD"			"1.0"
-				"HITGROUP_CHEST"		"0.6"
-				"HITGROUP_STOMACH"		"0.6"
+				"HITGROUP_CHEST"		"0.55"
+				"HITGROUP_STOMACH"		"0.55"
 			}
 			
 			"penetration_power_required" 	"165"
 			"penetration_power_loss"		"185"
-			"explosive_damage_frac"			"0.6"
+			"explosive_damage_frac"			"0.5"
 			
 			"player_model_override"		"models/characters/insurgent_heavy.mdl"
 			"viewmodel_hands_override"	"models/weapons/v_hands_ins_h.mdl"
@@ -310,8 +310,8 @@
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"			"1.0"
-				"HITGROUP_CHEST"		"0.8"
-				"HITGROUP_STOMACH"		"0.8"
+				"HITGROUP_CHEST"		"0.7"
+				"HITGROUP_STOMACH"		"0.7"
 			}
 			
 			"penetration_power_required" 	"120"
@@ -339,10 +339,10 @@
 				"HITGROUP_HEAD"			"0.8"
 				"HITGROUP_CHEST"		"0.4"
 				"HITGROUP_STOMACH"		"0.4"
-				"HITGROUP_LEFTARM"		"0.2"
-				"HITGROUP_RIGHTARM"		"0.2"
-				"HITGROUP_LEFTLEG"		"0.2"
-				"HITGROUP_RIGHTLEG"		"0.2"
+				"HITGROUP_LEFTARM"		"0.5"
+				"HITGROUP_RIGHTARM"		"0.5"
+				"HITGROUP_LEFTLEG"		"0.5"
+				"HITGROUP_RIGHTLEG"		"0.5"
 			}
 			
 			"penetration_power_required" "275"
@@ -370,10 +370,10 @@
 				"HITGROUP_HEAD"			"0.7"
 				"HITGROUP_CHEST"		"0.25"
 				"HITGROUP_STOMACH"		"0.25"
-				"HITGROUP_LEFTARM"		"0.25"
-				"HITGROUP_RIGHTARM"		"0.25"
-				"HITGROUP_LEFTLEG"		"0.25"
-				"HITGROUP_RIGHTLEG"		"0.25"
+				"HITGROUP_LEFTARM"		"0.5"
+				"HITGROUP_RIGHTARM"		"0.5"
+				"HITGROUP_LEFTLEG"		"0.5"
+				"HITGROUP_RIGHTLEG"		"0.5"
 			}
 			
 			"penetration_power_required" "400"
@@ -401,10 +401,10 @@
 				"HITGROUP_HEAD"			"0.7"
 				"HITGROUP_CHEST"		"0.25"
 				"HITGROUP_STOMACH"		"0.25"
-				"HITGROUP_LEFTARM"		"0.25"
-				"HITGROUP_RIGHTARM"		"0.25"
-				"HITGROUP_LEFTLEG"		"0.25"
-				"HITGROUP_RIGHTLEG"		"0.25"
+				"HITGROUP_LEFTARM"		"0.4"
+				"HITGROUP_RIGHTARM"		"0.4"
+				"HITGROUP_LEFTLEG"		"0.4"
+				"HITGROUP_RIGHTLEG"		"0.4"
 			}
 			
 			"penetration_power_required" "400"
@@ -430,8 +430,8 @@
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"			"1.0"
-				"HITGROUP_CHEST"		"0.7"
-				"HITGROUP_STOMACH"		"0.7"
+				"HITGROUP_CHEST"		"0.65"
+				"HITGROUP_STOMACH"		"0.65"
 			}
 			
 			"penetration_power_required" "100"
@@ -483,13 +483,13 @@
 			
 			"DamageHitgroups"
 			{
-				"HITGROUP_CHEST"		"0.75"
-				"HITGROUP_STOMACH"		"0.8"
+				"HITGROUP_CHEST"		"0.7"
+				"HITGROUP_STOMACH"		"0.7"
 			}
 			
 			"penetration_power_required" 	"120"
 			"penetration_power_loss"		"140"
-			"explosive_damage_frac"		"0.1"
+			"explosive_damage_frac"			"0.1"
 			
 			"player_model_override"		"models/characters/civilian_vip_security.mdl"
 			"viewmodel_hands_override"	"models/weapons/v_hands_sec_l.mdl"
@@ -592,10 +592,27 @@
 		}
 		
 		// ========================================
+		//
+		// ========================================
+		
+		// SUNGLASSES (21)
+		"gear_sunglasses"
+		{
+			"print_name"				"#gear_sunglasses"
+			"print_desc"				"#gear_sunglasses_desc"
+			"gear_slot"					"accessory"
+			"gear_cost"					"2"
+			"gear_weight"				"10"
+			"team_access"				"security, insurgent"
+			
+			//"overlay"					//"overlays/hud_antiflash_mask"
+		}
+		
+		// ========================================
 		// PERKS
 		// ========================================
 		
-		// QUARTERMASTER (21)
+		// QUARTERMASTER (22)
 		"perk_quartermaster"
 		{
 			"print_name"			"#perk_quartermaster"
@@ -607,7 +624,7 @@
 			"team_access"			"security, insurgent"
 		}
 		
-		// SKIRMISHER (22)
+		// SKIRMISHER (23)
 		"perk_skirmisher"
 		{
 			"print_name"			"#perk_skirmisher"
@@ -619,7 +636,7 @@
 			"team_access"			"security, insurgent"
 		}
 		
-		// VITALITY (23)
+		// VITALITY (24)
 		"perk_vitality"
 		{
 			"print_name"			"#perk_vitality"
