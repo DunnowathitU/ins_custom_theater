@@ -14,17 +14,17 @@
 			"gear_slot"					"armor"
 			"gear_cost"					"0"
 			"gear_weight"				"64"	// 25 (2.5kg) + 75 encumbrance
-			"class_restricted"			"1"			   
+			"class_restricted"			"1"
 			
 			"DamageHitgroups"
-			{	
+			{
 				"HITGROUP_HEAD"			"1.0"
-				"HITGROUP_CHEST"		"0.7"
-				"HITGROUP_STOMACH"		"0.7"
+				"HITGROUP_CHEST"		"0.85"
+				"HITGROUP_STOMACH"		"0.85"
 			}
 			
-			"penetration_power_required" "100"
-			"penetration_power_loss"	"120"
+			"penetration_power_required" "120"
+			"penetration_power_loss"	"140"
 			"explosive_damage_frac"		"0.7"
 			
 			"player_model_override"		"models/characters/security_standard.mdl"
@@ -46,12 +46,12 @@
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"			"1.0"
-				"HITGROUP_CHEST"		"0.7"
-				"HITGROUP_STOMACH"		"0.7"
+				"HITGROUP_CHEST"		"0.85"
+				"HITGROUP_STOMACH"		"0.85"
 			}
 			
-			"penetration_power_required" "100"
-			"penetration_power_loss"	"120"
+			"penetration_power_required" "120"
+			"penetration_power_loss"	"140"
 			"explosive_damage_frac"		"0.7"
 			
 			"player_model_override"		"models/characters/insurgent_standard.mdl"
@@ -73,8 +73,8 @@
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"			"1.0"
-				"HITGROUP_CHEST"		"0.55"
-				"HITGROUP_STOMACH"		"0.55"
+				"HITGROUP_CHEST"		"0.7"
+				"HITGROUP_STOMACH"		"0.7"
 			}
 			
 			"penetration_power_required" "165"
@@ -100,8 +100,8 @@
 			"DamageHitgroups"
 			{	
 				"HITGROUP_HEAD"			"1.0"
-				"HITGROUP_CHEST"		"0.55"
-				"HITGROUP_STOMACH"		"0.55"
+				"HITGROUP_CHEST"		"0.7"
+				"HITGROUP_STOMACH"		"0.7"
 			}
 			
 			"penetration_power_required" 	"165"
@@ -304,14 +304,14 @@
 			"print_desc"				"#gear_eod_armor_desc"
 			"gear_slot"					"armor"
 			"gear_cost"					"4"
-			"gear_weight"				"176"
+			"gear_weight"				"160"
 			"class_restricted"			"1"
 			
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"			"1.0"
-				"HITGROUP_CHEST"		"0.7"
-				"HITGROUP_STOMACH"		"0.7"
+				"HITGROUP_CHEST"		"0.85"
+				"HITGROUP_STOMACH"		"0.85"
 			}
 			
 			"penetration_power_required" 	"120"
@@ -331,22 +331,22 @@
 			"print_desc"				"#gear_reinforced_armor_desc"
 			"gear_slot"					"armor"
 			"gear_cost"					"3"
-			"gear_weight"				"160"	// 75 (7.5kg) + 250 encumbrance
+			"gear_weight"				"176"
 			"class_restricted"			"1"
 			
 			"DamageHitgroups"
 			{
-				"HITGROUP_HEAD"			"0.8"
-				"HITGROUP_CHEST"		"0.4"
-				"HITGROUP_STOMACH"		"0.4"
-				"HITGROUP_LEFTARM"		"0.5"
-				"HITGROUP_RIGHTARM"		"0.5"
-				"HITGROUP_LEFTLEG"		"0.5"
-				"HITGROUP_RIGHTLEG"		"0.5"
+				"HITGROUP_HEAD"			"1.0"
+				"HITGROUP_CHEST"		"1.0"
+				"HITGROUP_STOMACH"		"0.6"
+				"HITGROUP_LEFTARM"		"0.6"
+				"HITGROUP_RIGHTARM"		"1.0"
+				"HITGROUP_LEFTLEG"		"1.0"
+				"HITGROUP_RIGHTLEG"		"1.0"
 			}
 			
-			"penetration_power_required" "275"
-			"penetration_power_loss"	"350"
+			"penetration_power_required" "195"
+			"penetration_power_loss"	"215"
 			"explosive_damage_frac"		"0.4"
 			
 			"player_model_override"		"models/characters/security_heavy.mdl"
@@ -362,22 +362,22 @@
 			"print_desc"				"#gear_juggernaut_armor_desc"
 			"gear_slot"					"armor"
 			"gear_cost"					"4"
-			"gear_weight"				"192"	// 75 (7.5kg) + 250 encumbrance
+			"gear_weight"				"224"
 			"class_restricted"			"1"
 			
 			"DamageHitgroups"
 			{
-				"HITGROUP_HEAD"			"0.7"
-				"HITGROUP_CHEST"		"0.25"
-				"HITGROUP_STOMACH"		"0.25"
-				"HITGROUP_LEFTARM"		"0.5"
-				"HITGROUP_RIGHTARM"		"0.5"
-				"HITGROUP_LEFTLEG"		"0.5"
-				"HITGROUP_RIGHTLEG"		"0.5"
+				"HITGROUP_HEAD"			"1.0"
+				"HITGROUP_CHEST"		"0.6"
+				"HITGROUP_STOMACH"		"0.6"
+				"HITGROUP_LEFTARM"		"1.0"
+				"HITGROUP_RIGHTARM"		"1.0"
+				"HITGROUP_LEFTLEG"		"1.0"
+				"HITGROUP_RIGHTLEG"		"1.0"
 			}
 			
-			"penetration_power_required" "400"
-			"penetration_power_loss"	"450"
+			"penetration_power_required" "240"
+			"penetration_power_loss"	"260"
 			"explosive_damage_frac"		"0.4"
 			
 			"player_model_override"		"models/characters/security_heavy.mdl"
@@ -398,17 +398,17 @@
 			
 			"DamageHitgroups"
 			{
-				"HITGROUP_HEAD"			"0.7"
-				"HITGROUP_CHEST"		"0.25"
-				"HITGROUP_STOMACH"		"0.25"
-				"HITGROUP_LEFTARM"		"0.4"
-				"HITGROUP_RIGHTARM"		"0.4"
-				"HITGROUP_LEFTLEG"		"0.4"
-				"HITGROUP_RIGHTLEG"		"0.4"
+				"HITGROUP_HEAD"			"1.0"
+				"HITGROUP_CHEST"		"0.6"
+				"HITGROUP_STOMACH"		"0.6"
+				"HITGROUP_LEFTARM"		"1.0"
+				"HITGROUP_RIGHTARM"		"1.0"
+				"HITGROUP_LEFTLEG"		"1.0"
+				"HITGROUP_RIGHTLEG"		"1.0"
 			}
 			
-			"penetration_power_required" "400"
-			"penetration_power_loss"	"450"
+			"penetration_power_required" "250"
+			"penetration_power_loss"	"270"
 			"explosive_damage_frac"		"0.4"
 			
 			"player_model_override"		"models/characters/insurgent_heavy.mdl"
@@ -429,13 +429,12 @@
 			
 			"DamageHitgroups"
 			{
-				"HITGROUP_HEAD"			"1.0"
-				"HITGROUP_CHEST"		"0.65"
-				"HITGROUP_STOMACH"		"0.65"
+				"HITGROUP_CHEST"		"0.85"
+				"HITGROUP_STOMACH"		"0.85"
 			}
 			
-			"penetration_power_required" "100"
-			"penetration_power_loss"	"120"
+			"penetration_power_required" "120"
+			"penetration_power_loss"	"140"
 			"explosive_damage_frac"		"0.7"
 			
 			"player_model_override"		"models/characters/civilian_vip_security.mdl"
@@ -456,9 +455,8 @@
 			
 			"DamageHitgroups"
 			{
-				"HITGROUP_HEAD"			"1.0"
-				"HITGROUP_CHEST"		"0.5"
-				"HITGROUP_STOMACH"		"0.5"
+				"HITGROUP_CHEST"		"0.7"
+				"HITGROUP_STOMACH"		"0.7"
 			}
 			
 			"penetration_power_required" 	"165"
@@ -483,8 +481,8 @@
 			
 			"DamageHitgroups"
 			{
-				"HITGROUP_CHEST"		"0.7"
-				"HITGROUP_STOMACH"		"0.7"
+				"HITGROUP_CHEST"		"0.85"
+				"HITGROUP_STOMACH"		"0.85"
 			}
 			
 			"penetration_power_required" 	"120"
@@ -509,8 +507,8 @@
 			
 			"DamageHitgroups"
 			{
-				"HITGROUP_CHEST"		"0.7"
-				"HITGROUP_STOMACH"		"0.7"
+				"HITGROUP_CHEST"		"0.85"
+				"HITGROUP_STOMACH"		"0.85"
 			}
 			
 			"penetration_power_required"	"120"
@@ -592,7 +590,7 @@
 		}
 		
 		// ========================================
-		//
+		// MODDED ACCESSORIES
 		// ========================================
 		
 		// SUNGLASSES (21)
@@ -624,11 +622,11 @@
 			"team_access"			"security, insurgent"
 		}
 		
-		// SKIRMISHER (23)
-		"perk_skirmisher"
+		// FLANKER (23)
+		"perk_flanker"
 		{
-			"print_name"			"#perk_skirmisher"
-			"print_desc"			"#perk_skirmisher_desc"
+			"print_name"			"#perk_flanker"
+			"print_desc"			"#perk_flanker_desc"
 			"gear_slot"				"backpack"
 			"gear_cost"				"3"
 			"gear_weight"			"0"
@@ -644,6 +642,19 @@
 			"gear_slot"				"backpack"
 			"gear_cost"				"3"
 			"gear_weight"			"0"
+			
+			"team_access"			"security, insurgent"
+		}
+		
+		// SITREP (25)
+		"perk_sitrep"
+		{
+			"print_name"			"#perk_sitrep"
+			"print_desc"			"#perk_sitrep_desc"
+			"gear_slot"				"misc1"
+			"gear_cost"				"0"
+			"gear_weight"			"0"
+			"class_restricted"		"1"
 			
 			"team_access"			"security, insurgent"
 		}

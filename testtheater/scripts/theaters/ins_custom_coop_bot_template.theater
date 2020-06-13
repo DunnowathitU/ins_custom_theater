@@ -29,11 +29,10 @@
 				"gear"					"ins_heavy_armor"
 				"gear"					"ins_chest_carrier"
 				"weapon"				"weapon_gurkha"
-				"weapon"				"weapon_m1a1"
-				"weapon_upgrade"		"ammo_tracer_m1a1"
+				"weapon"				"weapon_aks74u"
+				"weapon_upgrade"		"ammo_tracer_aks74u"
 				"weapon_upgrade"		"barrel_silencer_ins1"
 				"weapon_upgrade"		"ins_flashlight"
-				"weapon"				"weapon_model10"
 				"weapon"				"weapon_molotov"
 			}
 			"allowed_items"
@@ -47,7 +46,6 @@
 				"weapon"				"weapon_m84"
 				"weapon"				"weapon_m18"
 				"weapon"				"weapon_molotov"
-				"weapon"				"weapon_model10"
 				"weapon_upgrade"		"barrel_silencer_ins1"
 			}
 		}
@@ -66,6 +64,14 @@
 				{
 					"kit"					"0"
 					"backpack"				"0"
+				}
+				
+				"attachments"	
+				{
+					"helmet"
+					{
+						"model"			"models/characters/ins_helmet_head.mdl"
+					}
 				}
 			}
 			
@@ -116,11 +122,7 @@
 				"gear"					"ins_light_armor"
 				"gear"					"ins_chest_carrier"
 				"weapon"				"weapon_gurkha"
-				"weapon"				"weapon_rpk"
-				"gear"					"ins_chest_rig"
-				"weapon"				"weapon_m18"
-				
-				
+				"weapon"				"weapon_rpk74"
 			}
 			"allowed_items"
 			{	
@@ -128,6 +130,7 @@
 				"gear"					"ins_chest_carrier"
 				"weapon"				"weapon_gurkha"
 				"weapon"				"weapon_rpk"
+				"weapon"				"weapon_rpk74"
 				"weapon"				"weapon_akm"
 				"weapon"				"weapon_m84"
 				"weapon"				"weapon_m18"
@@ -157,8 +160,10 @@
 				"gear"					"ins_chest_rig"
 				"weapon"				"weapon_gurkha"
 				"weapon"				"weapon_mp40"
+				"weapon_upgrade"		"ammo_tracer_mp40"
 				"weapon_upgrade"		"ins_flashlight"
 				"weapon"				"weapon_rpg7"
+				"weapon"				"weapon_m84"
 			}
 			"allowed_items"
 			{
@@ -169,6 +174,7 @@
 				"weapon"				"weapon_mp40"
 				"weapon"				"weapon_rpg7"
 				"weapon"				"weapon_gurkha"
+				"weapon"				"weapon_m84"
 			}
 		}
 		
@@ -196,6 +202,7 @@
 				"weapon"				"weapon_gurkha"
 				"weapon"				"weapon_mosin"
 				"weapon_upgrade"		"optic_scope_7x"
+				"weapon_upgrade"		"siderail_lasersight_shotgun_ins"
 				"weapon_upgrade"		"barrel_silencer_ins1"
 				"weapon"				"weapon_m1911"
 			}
@@ -232,6 +239,14 @@
 					"kit"					"0"
 					"backpack"				"0"
 				}
+				
+				"attachments"	
+				{
+					"helmet"
+					{
+						"model"			"models/characters/ins_helmet_head.mdl"
+					}
+				}
 			}
 				
 			"buy_order"
@@ -239,9 +254,10 @@
 				"gear"				"ins_light_armor"
 				"gear"				"ins_chest_carrier"
 				"weapon"			"weapon_gurkha"
-				"weapon"			"weapon_fal"
+				"weapon"			"weapon_m1a1"
+				"weapon_upgrade"	"ammo_tracer_m1a1"
 				"weapon_upgrade"	"ins_flashlight"
-				"weapon"			"weapon_m84"
+				"weapon"			"weapon_m18"
 			}
 			
 			"allowed_items"
@@ -249,8 +265,8 @@
 				"gear"				"ins_light_armor"
 				"gear"				"ins_chest_rig"
 				"weapon"			"weapon_gurkha"
-				"weapon"			"weapon_fal"
-				"weapon"			"weapon_m84"
+				"weapon"			"weapon_m1a1"
+				"weapon"			"weapon_m18"
 			}
 		}
 		

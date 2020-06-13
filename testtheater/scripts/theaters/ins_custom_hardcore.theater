@@ -61,10 +61,10 @@
 				}
 				"#Fireteam_Delta"
 				{
-					"#Squad_Fireteam_Leader_VIP"		"template_vip_security_coop"
+					"#Squad_Fireteam_Leader_Commander"	"template_commander_security_coop"
 					"#Squad_Fireteam_Informant"			"template_informant_security_coop"
 					"#Squad_Fireteam_Informant"			"template_informant_security_coop"
-					"#Squad_Fireteam_Supplier"			"template_supplier_security_coop"
+					"#Squad_Fireteam_Armorer"			"template_armorer_security_coop"
 				}
 			}	
 		}
@@ -77,7 +77,7 @@
 				{
 					// role name								preset
 					"#Squad_Cell_Leader_Specialist"	"template_coop_specialist"
-					"#Squad_Cell_Fighter"			"template_coop_fighter"
+					"#Squad_Cell_Militant"			"template_coop_militant"
 					"#Squad_Cell_Fighter"			"template_coop_fighter"
 					"#Squad_Cell_Fighter"			"template_coop_fighter"
 					"#Squad_Cell_Fighter"			"template_coop_fighter"
@@ -103,8 +103,8 @@
 				{
 					// role name								preset
 					"#Squad_Cell_Leader_Specialist"		"template_coop_specialist"
-					"#Squad_Cell_Specialist"			"template_coop_specialist"
 					"#Squad_Cell_Fighter"			"template_coop_fighter"
+					"#Squad_Cell_Militant"			"template_coop_militant"
 					"#Squad_Cell_Fighter"			"template_coop_fighter"
 					"#Squad_Cell_Fighter"			"template_coop_fighter"
 					"#Squad_Cell_MachineGunner"		"template_coop_machinegunner"

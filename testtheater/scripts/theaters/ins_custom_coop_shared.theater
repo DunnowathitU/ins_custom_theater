@@ -1,4 +1,4 @@
-"#base" "base_player.theater"
+"#base" "ins_custom_base_player.theater"
 "#base" "ins_custom_base_common_ammo.theater"
 
 "#base" "ins_custom_gear.theater"
@@ -37,14 +37,15 @@
 		}
 	}
 	
-	//
+	// ========================================
 	// BEGIN PLAYER CLASS TEMPLATES
-	//
+	// ========================================
 	"player_templates"
-	{	
-		//
+	{
+	
+		// ========================================
 		// POINTMAN
-		//
+		// ========================================
 		"template_pointman_security_coop"
 		{
 			"team"					"security"
@@ -88,7 +89,6 @@
 				"weapon"				"weapon_mp5"
 				"weapon"				"weapon_ump45"
 				"weapon"				"weapon_mk18"
-				
 				"weapon"				"weapon_sterling"
 				"weapon"				"weapon_aks74u"
 				
@@ -123,15 +123,15 @@
 				
 				"weapon"
 				{
-					"weapon_m18"		"1"
 					"weapon_vector"		"-1"
 				}
 			}
 		}
 		
-		//
+		// ========================================
 		// RIFLEMAN
-		//
+		// ========================================
+		
 		"template_rifleman_security_coop"
 		{
 			"team"					"security"
@@ -175,7 +175,6 @@
 				"weapon"				"weapon_l1a1"
 				"weapon"				"weapon_m4a1"
 				"weapon"				"weapon_galil_sar"
-				
 				"weapon"				"weapon_ak74"
 				"weapon"				"weapon_sks"
 				
@@ -205,15 +204,20 @@
 				"weapon"
 				{	
 					"weapon_m18"		"2"
-					
 					"weapon_m1garand"	"-1"
+				}
+				
+				"weapon_upgrade"
+				{
+					"magazine_drum_75rd"	"1"
 				}
 			}
 		}
 		
-		//
+		// ========================================
 		// JUGGERNAUT
-		//
+		// ========================================
+		
 		"template_juggernaut_security_coop"
 		{
 			"team"					"security"
@@ -255,15 +259,15 @@
 				
 				"weapon"				"weapon_m590"
 				"weapon"				"weapon_m16a4"
-				"weapon"				"weapon_m4a1"
-				
+				"weapon"				"weapon_mini14"
+				"weapon"				"weapon_mk18"
+				"weapon"				"weapon_m1a1"
 				"weapon"				"weapon_ak74"
 				
 				"weapon"				"weapon_izh43"
 				"weapon"				"weapon_m1014"
 				"weapon"				"weapon_riotshield"
 				"weapon"				"weapon_groza"
-				"weapon"				"weapon_vhs2"
 				"weapon"				"weapon_m500"
 				
 				"weapon"				"weapon_m9"
@@ -287,9 +291,10 @@
 			}
 		}
 		
-		//
+		// ========================================
 		// RECON
-		//
+		// ========================================
+		
 		"template_recon_security_coop"
 		{
 			"team"					"security"
@@ -332,7 +337,6 @@
 				"weapon"				"weapon_mp5"
 				"weapon"				"weapon_mk18"
 				"weapon"				"weapon_ump45"
-				
 				"weapon"				"weapon_sterling"
 				"weapon"				"weapon_aks74u"
 				"weapon"				"weapon_m1a1"
@@ -367,9 +371,10 @@
 			}
 		}
 		
-		//
+		// ========================================
 		// SIGNALLER
-		//
+		// ========================================
+		
 		"template_signaller_security_coop"
 		{
 			"team"					"security"
@@ -412,8 +417,7 @@
 				"weapon"				"weapon_m16a4"
 				"weapon"				"weapon_m4a1"
 				"weapon"				"weapon_mini14"
-				"weapon"				"weapon_mp5k"
-				
+				"weapon"				"weapon_ump45"
 				"weapon"				"weapon_m1a1"
 				"weapon"				"weapon_ak74"
 				
@@ -433,9 +437,10 @@
 			}
 		}
 		
-		//
+		// ========================================
 		// DESIGNATED MARKSMAN
-		//
+		// ========================================
+		
 		"template_designated_marksman_security_coop"
 		{
 		
@@ -479,7 +484,6 @@
 				"weapon"				"weapon_m14"
 				"weapon"				"weapon_m16a4"
 				"weapon"				"weapon_l1a1"
-				
 				"weapon"				"weapon_sks"
 				"weapon"				"weapon_fal"
 				
@@ -498,10 +502,8 @@
 				"weapon_upgrade"			"optic_scope_mk4"
 				"weapon_upgrade"			"optic_scope_7x"
 				"weapon_upgrade"			"barrel_silencer_sec1"
-				"weapon_upgrade"			"barrel_silencer_sec2"
 				"weapon_upgrade"			"barrel_silencer_pistol"
 				"weapon_upgrade"			"barrel_silencer_ins1"
-				"weapon_upgrade"			"barrel_silencer_integrated"
 				"weapon_upgrade"			"underbarrel_bipod"
 				"weapon_upgrade"			"underbarrel_bipod"
 				
@@ -518,9 +520,10 @@
 			}
 		}
 		
-		//
+		// ========================================
 		// SNIPER
-		//
+		// ========================================
+		
 		"template_sniper_security_coop"
 		{
 			"team"					"security"
@@ -563,7 +566,6 @@
 				"weapon"				"weapon_m40a1"
 				"weapon"				"weapon_l1a1"
 				"weapon"				"weapon_m14"
-				
 				"weapon"				"weapon_mosin"
 				"weapon"				"weapon_sks"
 				"weapon"				"weapon_fal"	
@@ -583,11 +585,8 @@
 				"weapon_upgrade"			"optic_scope_mk4"
 				"weapon_upgrade"			"optic_scope_7x"
 				"weapon_upgrade"			"barrel_silencer_sec1"
-				"weapon_upgrade"			"barrel_silencer_sec2"
 				"weapon_upgrade"			"barrel_silencer_pistol"
 				"weapon_upgrade"			"barrel_silencer_ins1"
-				"weapon_upgrade"			"barrel_silencer_heavy"
-				"weapon_upgrade"			"barrel_silencer_integrated"
 				"weapon_upgrade"			"underbarrel_bipod"
 				"weapon_upgrade"			"underbarrel_bipod"
 				
@@ -603,9 +602,10 @@
 			}
 		}
 		
-		//
+		// ========================================
 		// BREACHER
-		//
+		// ========================================
+		
 		"template_breacher_security_coop"
 		{	
 			"team"					"security"
@@ -644,15 +644,15 @@
 				"gear"					"sec_eod_armor"
 				"gear"					"sec_tactical_carrier"
 				
-				"weapon"				"weapon_m16a4"
 				"weapon"				"weapon_m590"
 				"weapon"				"weapon_mp5"
 				"weapon"				"weapon_mk18"
-				
+				"weapon"				"weapon_ump45"
 				"weapon"				"weapon_aks74u"
 				"weapon"				"weapon_sterling"
 				
 				"weapon"				"weapon_groza"
+				"weapon"				"weapon_m1014"
 				"weapon"				"weapon_izh43"
 				"weapon"				"weapon_vector"
 				"weapon"				"weapon_m500"
@@ -683,13 +683,15 @@
 				"weapon_upgrade"
 				{
 					"grenade_upgrade_damage"	"-1"
+					"explosive_upgrade_pierce"	"-1"
 				}
 			}
 		}
 		
-		//
+		// ========================================
 		// SPECIALIST
-		//
+		// ========================================
+		
 		"template_specialist_security_coop"
 		{
 			"team"					"security"
@@ -731,15 +733,14 @@
 				"gear"					"sec_tactical_carrier"
 			
 				"weapon"				"weapon_m590"
+				"weapon"				"weapon_m16a4"
 				"weapon"				"weapon_mp5"
-				"weapon"				"weapon_m4a1"
 				"weapon"				"weapon_galil_sar"
-				
 				"weapon"				"weapon_ak74"
 				"weapon"				"weapon_sterling"
 				
-				"weapon"				"weapon_l85a2"
-				"weapon"				"weapon_izh43"
+				"weapon"				"weapon_arx160"
+				"weapon"				"weapon_mk12"
 				"weapon"				"weapon_mk17"
 				"weapon"				"weapon_welrod"
 				
@@ -761,7 +762,7 @@
 				"weapon_upgrade"			"magazine_drum_75rd"
 				"weapon_upgrade"			"underbarrel_m203_smoke"
 				"weapon_upgrade"			"underbarrel_gp25_smoke"
-	
+				
 				"weapon_upgrade"			"underbarrel_m320_smoke"
 			}
 			
@@ -782,9 +783,9 @@
 			}
 		}
 		
-		//
+		// ========================================
 		// GRENADIER
-		//
+		// ========================================
 		"template_grenadier_security_coop"
 		{
 			"team"					"security"
@@ -824,14 +825,14 @@
 				
 				"weapon"				"weapon_m16a4"
 				"weapon"				"weapon_m4a1"
-				"weapon"				"weapon_mp5"
-				
+				"weapon"				"weapon_ump45"
 				"weapon"				"weapon_ak74"
 				"weapon"				"weapon_sterling"
 				
+				"weapon"				"weapon_mp5_stock"
 				"weapon"				"weapon_l85a2"
-				"weapon"				"weapon_vhs2"
 				"weapon"				"weapon_m79"
+				"weapon"				"weapon_mk17"
 				"weapon"				"weapon_sw500"
 				
 				"weapon"				"weapon_m9"
@@ -870,15 +871,16 @@
 					"underbarrel_m203_smoke"	"1"
 					"underbarrel_gp25_smoke"	"1"
 					"underbarrel_m320_smoke"	"1"
-					
 					"grenade_upgrade_damage"	"-1"
+					"explosive_upgrade_pierce"	"-1"
 				}
 			}
 		}
 		
-		//
+		// ========================================
 		// SUPPORT
-		//
+		// ========================================
+		
 		"template_support_security_coop"
 		{
 			"team"					"security"
@@ -919,7 +921,6 @@
 				"weapon"				"weapon_galil_sar"
 				"weapon"				"weapon_m249"
 				"weapon"				"weapon_m14"
-				
 				"weapon"				"weapon_rpk"
 				"weapon"				"weapon_fal"
 				
@@ -936,8 +937,6 @@
 				
 				"weapon_upgrade"			"underbarrel_bipod"
 				"weapon_upgrade"			"magazine_drum_75rd"
-							
-				
 			}
 			
 			"cost_modifiers"
@@ -945,7 +944,6 @@
 				"weapon"
 				{
 					"weapon_m18"	"2"
-					
 					"weapon_galil_sar"	"-1"
 				}
 				
@@ -957,9 +955,83 @@
 			}
 		}
 		
-		//
-		// VIP
-		//
+		// ========================================
+		// COMMANDER
+		// ========================================
+		
+		"template_commander_security_coop"
+		{
+			"team"					"security"
+			"print_name"			"#Squad_Fireteam_VIP"
+		
+			"models"
+			{
+				"player"				"models/characters/security_light.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+			
+				"bodygroups"
+				{
+					"kit"					"0"
+					"backpack"				"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"gear"					"sec_heavy_armor"
+				"gear"					"sec_chest_carrier"
+				"gear"					"perk_sitrep"
+				"weapon"				"weapon_kabar"
+				"weapon"				"weapon_m16a4"
+				"weapon_upgrade"		"ammo_tracer_m16a4"
+				"weapon_upgrade"		"underbarrel_foregrip_sec1"
+				"weapon_upgrade"		"optic_2xaimpoint"
+				"weapon"				"weapon_m45"
+				"weapon"				"weapon_m18"
+			}
+			
+			"allowed_items"
+			{
+				"gear"					"sec_light_armor"
+				"gear"					"sec_heavy_armor"
+				"gear"					"sec_chest_rig"
+				"gear"					"sec_chest_carrier"
+				
+				"gear"					"sec_eod_armor"
+				"gear"					"sec_tactical_carrier"
+				
+				"gear"					"perk_sitrep"
+				
+				"weapon"				"weapon_m16a4"
+				"weapon"				"weapon_mini14"
+				"weapon"				"weapon_m14"
+				"weapon"				"weapon_m1a1"
+				"weapon"				"weapon_fal"
+				
+				"weapon"				"weapon_g3a3"
+				"weapon"				"weapon_vhs2"
+				"weapon"				"weapon_mk12"
+				"weapon"				"weapon_sw500"
+				
+				"weapon"				"weapon_m9"
+				"weapon"				"weapon_m45"
+				
+				"weapon"				"weapon_m18"
+				"weapon"				"weapon_m84"
+				"weapon"				"weapon_m67"
+				
+				"weapon_upgrade"			"barrel_silencer_sec1"
+				"weapon_upgrade"			"barrel_silencer_sec2"
+				"weapon_upgrade"			"barrel_silencer_pistol"
+				"weapon_upgrade"			"barrel_silencer_ins1"
+				"weapon_upgrade"			"underbarrel_bipod"
+			}
+		}
+		
+		// ========================================
+		// VIP (LEGACY)
+		// ========================================
+		
 		"template_vip_security_coop"
 		{
 			"team"					"security"
@@ -1005,7 +1077,6 @@
 				
 				"weapon"				"weapon_m9"
 				"weapon"				"weapon_m45"
-				
 				"weapon"				"weapon_m1911"
 				
 				"weapon"				"weapon_welrod"
@@ -1021,9 +1092,10 @@
 			}
 		}
 		
-		//
+		// ========================================
 		// INFORMANT
-		//
+		// ========================================
+		
 		"template_informant_security_coop"
 		{
 			"team"					"security"
@@ -1067,13 +1139,13 @@
 				"weapon"				"weapon_mp40"
 				"weapon"				"weapon_m1a1"
 				"weapon"				"weapon_galil"
-		
 				"weapon"				"weapon_sks"
 				"weapon"				"weapon_toz"
 				"weapon"				"weapon_m1911"
 				
 				"weapon"				"weapon_m1garand"
 				"weapon"				"weapon_vss"
+				"weapon"				"weapon_m16a1"
 				"weapon"				"weapon_welrod"
 				
 				"weapon"				"weapon_m18"
@@ -1102,14 +1174,15 @@
 			}
 		}
 		
-		//
-		// SUPPLIER
-		//
-		"template_supplier_security_coop"
+		// ========================================
+		// ARMORER
+		// ========================================
+		
+		"template_armorer_security_coop"
 		{
 			"team"					"security"
-			"print_name"			"#Squad_Fireteam_supplier"
-			
+			"print_name"			"#Squad_Fireteam_Armorer"
+		
 			"models"
 			{
 				"player"				"models/characters/security_light.mdl"
@@ -1148,9 +1221,7 @@
 				"weapon"				"weapon_m4a1"
 				"weapon"				"weapon_mini14"
 				"weapon"				"weapon_ump45"
-				
 				"weapon"				"weapon_m1a1"
-				"weapon"				"weapon_sterling"
 				"weapon"				"weapon_ak74"
 				
 				"weapon"				"weapon_l85a2"
@@ -1171,8 +1242,6 @@
 				"weapon_upgrade"			"barrel_silencer_sec2"
 				"weapon_upgrade"			"barrel_silencer_pistol"
 				"weapon_upgrade"			"barrel_silencer_ins1"
-				"weapon_upgrade"			"barrel_silencer_heavy"
-				"weapon_upgrade"			"barrel_silencer_integrated"
 				"weapon_upgrade"			"underbarrel_bipod"
 				"weapon_upgrade"			"optic_scope_mk4"
 			}
