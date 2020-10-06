@@ -2984,7 +2984,7 @@
 			"act_table"					"smg_foregrip"
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"128"	// (2.5kg[weapon] + (0.7kg[ammo] * (1+4)[mags]) )*10[kg->hg for int]  +8[encumbrance]
-			"weapon_cost"				"3"
+			"weapon_cost"				"2"
 			"barrel_length"				"18"
 			
 			"fov"

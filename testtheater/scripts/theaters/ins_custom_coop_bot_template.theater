@@ -22,6 +22,14 @@
 					"kit"					"0"
 					"backpack"				"0"
 				}
+				
+				"attachments"	
+				{
+					"helmet"
+					{
+						"model"			"models/characters/ins_helmet_head.mdl"
+					}
+				}
 			}
 			
 			"buy_order"
@@ -80,8 +88,9 @@
 				"gear"					"ins_heavy_armor"
 				"gear"					"ins_chest_carrier"
 				"weapon"				"weapon_gurkha"
-				"weapon"				"weapon_ak74"
-				"weapon_upgrade"		"ammo_tracer_ak74"
+				"weapon"				"weapon_akm"
+				"weapon_upgrade"		"ammo_tracer_akm"
+				"weapon_upgrade"		"underbarrel_foregrip_ins1"
 				"weapon_upgrade"		"ins_flashlight"
 				"weapon"				"weapon_f1"
 			}
@@ -91,7 +100,6 @@
 				"gear"					"ins_chest_carrier"
 				"weapon"				"weapon_gurkha"
 				"weapon"				"weapon_akm"
-				"weapon"				"weapon_ak74"
 				"weapon"				"weapon_aks74u"
 				"weapon"				"weapon_sks"
 				"weapon"				"weapon_molotov"
@@ -122,7 +130,10 @@
 				"gear"					"ins_light_armor"
 				"gear"					"ins_chest_carrier"
 				"weapon"				"weapon_gurkha"
-				"weapon"				"weapon_rpk74"
+				"weapon"				"weapon_galil"
+				"weapon_upgrade"		"magazine_drum_75rd"
+				"weapon_upgrade"		"underbarrel_bipod"
+				"weapon_upgrade"		"ammo_tracer_galil"
 			}
 			"allowed_items"
 			{	
@@ -130,10 +141,12 @@
 				"gear"					"ins_chest_carrier"
 				"weapon"				"weapon_gurkha"
 				"weapon"				"weapon_rpk"
-				"weapon"				"weapon_rpk74"
+				"weapon"				"weapon_galil"
 				"weapon"				"weapon_akm"
 				"weapon"				"weapon_m84"
 				"weapon"				"weapon_m18"
+				"weapon_upgrade"		"underbarrel_bipod"
+				"weapon_upgrade"		"magazine_drum_75rd"
 			}
 		}
 		
@@ -238,14 +251,6 @@
 				{
 					"kit"					"0"
 					"backpack"				"0"
-				}
-				
-				"attachments"	
-				{
-					"helmet"
-					{
-						"model"			"models/characters/ins_helmet_head.mdl"
-					}
 				}
 			}
 				

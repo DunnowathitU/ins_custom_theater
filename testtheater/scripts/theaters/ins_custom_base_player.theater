@@ -46,8 +46,7 @@
 			"AccelerationByWeight"
 			{
 				"60"					"4.20"
-				"540"					"4.10"
-				"640"					"3.80"
+				"640"					"4.10"
 			}
 			
 			"DecelerationByWeight"
@@ -167,8 +166,8 @@
 				"HITGROUP_HEAD"				"3"	// death
 				"HITGROUP_CHEST"			"2.75"
 				"HITGROUP_STOMACH"			"2.50"
-				"HITGROUP_LEFTARM"			"0.60"
-				"HITGROUP_RIGHTARM"			"0.65"
+				"HITGROUP_LEFTARM"			"0.70"
+				"HITGROUP_RIGHTARM"			"0.75"
 				"HITGROUP_LEFTLEG"			"0.70"
 				"HITGROUP_RIGHTLEG"			"0.75"
 			}

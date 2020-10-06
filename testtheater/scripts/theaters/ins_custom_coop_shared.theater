@@ -34,6 +34,7 @@
 			
 			// localize
 			"localize"			"resource/ins_server_english"
+			"localize"			"resource/ins_server_maps_english.txt"
 		}
 	}
 	
@@ -65,11 +66,10 @@
 			
 			"buy_order"
 			{
-				"gear"					"sec_light_armor"
+				"gear"					"sec_heavy_armor"
 				"gear"					"sec_chest_carrier"
 				"weapon"				"weapon_katana"
 				"weapon"				"weapon_ump45"
-				"weapon_upgrade"		"optic_eotech"
 				"weapon_upgrade"		"barrel_silencer_sec1"
 				"weapon"				"weapon_m9"
 				"weapon"				"weapon_m18"
@@ -77,14 +77,6 @@
 			
 			"allowed_items"
 			{	
-				"gear"					"sec_light_armor"
-				"gear"					"sec_heavy_armor"
-				"gear"					"sec_chest_rig"
-				"gear"					"sec_chest_carrier"
-				
-				"gear"					"sec_eod_armor"
-				"gear"					"sec_tactical_carrier"
-				
 				"weapon"				"weapon_m590"
 				"weapon"				"weapon_mp5"
 				"weapon"				"weapon_ump45"
@@ -94,7 +86,6 @@
 				
 				"weapon"				"weapon_honeybadger"
 				"weapon"				"weapon_izh43"
-				"weapon"				"weapon_vector"
 				"weapon"				"weapon_m1014"
 				"weapon"				"weapon_m500"
 				
@@ -104,6 +95,7 @@
 				"weapon"				"weapon_m18"
 				"weapon"				"weapon_m84"
 				"weapon"				"weapon_m67"
+				"weapon"				"weapon_anm14"
 				
 				"weapon_upgrade"		"barrel_silencer_sec1"
 				"weapon_upgrade"		"barrel_silencer_sec2"
@@ -111,20 +103,6 @@
 				"weapon_upgrade"		"barrel_silencer_ins1"
 				"weapon_upgrade"		"barrel_silencer_heavy"
 				"weapon_upgrade"		"barrel_silencer_integrated"
-		
-			}
-			
-			"cost_modifiers"
-			{
-				"gear"
-				{
-					"sec_tactical_carrier"		"-1"
-				}
-				
-				"weapon"
-				{
-					"weapon_vector"		"-1"
-				}
 			}
 		}
 		
@@ -162,14 +140,7 @@
 			
 			"allowed_items"
 			{	
-				"gear"					"sec_light_armor"
-				"gear"					"sec_heavy_armor"
-				"gear"					"sec_chest_rig"
-				"gear"					"sec_chest_carrier"
-	
 				"gear"					"sec_reinforced_armor"
-				"gear"					"sec_eod_armor"
-				"gear"					"sec_tactical_carrier"
 				
 				"weapon"				"weapon_m16a4"
 				"weapon"				"weapon_l1a1"
@@ -178,10 +149,10 @@
 				"weapon"				"weapon_ak74"
 				"weapon"				"weapon_sks"
 				
+				"weapon"				"weapon_m1garand"
 				"weapon"				"weapon_groza"
 				"weapon"				"weapon_g3a3"
 				"weapon"				"weapon_vhs2"
-				"weapon"				"weapon_m1garand"
 				"weapon"				"weapon_sw500"
 				
 				"weapon"				"weapon_m9"
@@ -189,21 +160,16 @@
 				
 				"weapon"				"weapon_m18"
 				"weapon"				"weapon_m84"
-				"weapon"				"weapon_m67"		
+				"weapon"				"weapon_m67"
+				"weapon"				"weapon_anm14"				
 
 				"weapon_upgrade"			"magazine_drum_75rd"				
 			}
 			
 			"cost_modifiers"
 			{
-				"gear"
-				{
-					"sec_tactical_carrier"		"-1"
-				}
-				
 				"weapon"
 				{	
-					"weapon_m18"		"2"
 					"weapon_m1garand"	"-1"
 				}
 				
@@ -247,27 +213,21 @@
 			}
 			
 			"allowed_items"
-			{	
-				"gear"					"sec_light_armor"
-				"gear"					"sec_heavy_armor"
-				"gear"					"sec_chest_rig"
-				"gear"					"sec_chest_carrier"
-				
+			{
 				"gear"					"sec_juggernaut_armor"
-				"gear"					"sec_eod_armor"
-				"gear"					"sec_tactical_carrier"
 				
 				"weapon"				"weapon_m590"
 				"weapon"				"weapon_m16a4"
-				"weapon"				"weapon_mini14"
 				"weapon"				"weapon_mk18"
+				"weapon"				"weapon_toz"
 				"weapon"				"weapon_m1a1"
-				"weapon"				"weapon_ak74"
+				"weapon"				"weapon_aks74u"
 				
 				"weapon"				"weapon_izh43"
 				"weapon"				"weapon_m1014"
-				"weapon"				"weapon_riotshield"
 				"weapon"				"weapon_groza"
+				"weapon"				"weapon_ppsh41"
+				"weapon"				"weapon_riotshield"
 				"weapon"				"weapon_m500"
 				
 				"weapon"				"weapon_m9"
@@ -276,18 +236,7 @@
 				"weapon"				"weapon_m18"
 				"weapon"				"weapon_m84"
 				"weapon"				"weapon_m67"
-			}
-			
-			"cost_modifiers"
-			{
-				"gear"
-				{
-					"sec_tactical_carrier"		"-1"
-				}
-				"weapon"
-				{
-					"weapon_m18"		"2"
-				}
+				"weapon"				"weapon_anm14"
 			}
 		}
 		
@@ -324,26 +273,17 @@
 			}
 			
 			"allowed_items"
-			{	
-				"gear"					"sec_light_armor"
-				"gear"					"sec_heavy_armor"
-				"gear"					"sec_chest_rig"
-				"gear"					"sec_chest_carrier"
-				
-				"gear"					"sec_eod_armor"
-				"gear"					"sec_tactical_carrier"
-				
+			{
 				"weapon"				"weapon_mini14"
 				"weapon"				"weapon_mp5"
-				"weapon"				"weapon_mk18"
+				"weapon"				"weapon_m4a1"
 				"weapon"				"weapon_ump45"
 				"weapon"				"weapon_sterling"
-				"weapon"				"weapon_aks74u"
 				"weapon"				"weapon_m1a1"
-
+				
+				"weapon"				"weapon_mp7"
 				"weapon"				"weapon_honeybadger"
 				"weapon"				"weapon_mk17"
-				"weapon"				"weapon_vector"
 				"weapon"				"weapon_welrod"
 				
 				"weapon"				"weapon_m9"
@@ -352,6 +292,7 @@
 				"weapon"				"weapon_m18"
 				"weapon"				"weapon_m84"
 				"weapon"				"weapon_m67"
+				"weapon"				"weapon_anm14"
 				
 				"weapon"				"weapon_p2a1_uav"
 				
@@ -360,14 +301,7 @@
 				"weapon_upgrade"		"barrel_silencer_pistol"
 				"weapon_upgrade"		"barrel_silencer_ins1"
 				"weapon_upgrade"		"barrel_silencer_integrated"
-			}
-			
-			"cost_modifiers"
-			{
-				"weapon"
-				{	
-					"weapon_vector"		"-1"
-				}
+				"weapon_upgrade"		"underbarrel_m203_smoke"
 			}
 		}
 		
@@ -406,22 +340,14 @@
 			
 			"allowed_items"
 			{	
-				"gear"					"sec_light_armor"
-				"gear"					"sec_heavy_armor"
-				"gear"					"sec_chest_rig"
-				"gear"					"sec_chest_carrier"
-				
-				"gear"					"sec_eod_armor"
-				"gear"					"sec_tactical_carrier"
-				
 				"weapon"				"weapon_m16a4"
-				"weapon"				"weapon_m4a1"
 				"weapon"				"weapon_mini14"
-				"weapon"				"weapon_ump45"
+				"weapon"				"weapon_m4a1"
 				"weapon"				"weapon_m1a1"
 				"weapon"				"weapon_ak74"
 				
 				"weapon"				"weapon_l85a2"
+				"weapon"				"weapon_vector"
 				"weapon"				"weapon_honeybadger"
 				"weapon"				"weapon_mk17"
 				"weapon"				"weapon_sw500"
@@ -434,6 +360,13 @@
 				"weapon"				"weapon_m18"
 				"weapon"				"weapon_m84"
 				"weapon"				"weapon_m67"
+				"weapon"				"weapon_anm14"
+				
+				"weapon_upgrade"		"barrel_silencer_sec1"
+				"weapon_upgrade"		"barrel_silencer_sec2"
+				"weapon_upgrade"		"barrel_silencer_pistol"
+				"weapon_upgrade"		"barrel_silencer_ins1"
+				"weapon_upgrade"		"underbarrel_m203_smoke"
 			}
 		}
 		
@@ -473,22 +406,15 @@
 		
 			"allowed_items"
 			{	
-				"gear"					"sec_light_armor"
-				"gear"					"sec_heavy_armor"
-				"gear"					"sec_chest_rig"
-				"gear"					"sec_chest_carrier"
-				
-				"gear"					"sec_eod_armor"
-				"gear"					"sec_tactical_carrier"
-			
-				"weapon"				"weapon_m14"
 				"weapon"				"weapon_m16a4"
+				"weapon"				"weapon_mini14"
 				"weapon"				"weapon_l1a1"
+				"weapon"				"weapon_m14"
 				"weapon"				"weapon_sks"
 				"weapon"				"weapon_fal"
 				
 				"weapon"				"weapon_m1garand"
-				"weapon"				"weapon_vss"
+				"weapon"				"weapon_asval"
 				"weapon"				"weapon_svd"
 				"weapon"				"weapon_welrod"
 				
@@ -498,6 +424,7 @@
 				"weapon"				"weapon_m18"
 				"weapon"				"weapon_m84"
 				"weapon"				"weapon_m67"
+				"weapon"				"weapon_anm14"
 				
 				"weapon_upgrade"			"optic_scope_mk4"
 				"weapon_upgrade"			"optic_scope_7x"
@@ -555,14 +482,6 @@
 		
 			"allowed_items"
 			{	
-				"gear"					"sec_light_armor"
-				"gear"					"sec_heavy_armor"
-				"gear"					"sec_chest_rig"
-				"gear"					"sec_chest_carrier"
-				
-				"gear"					"sec_eod_armor"
-				"gear"					"sec_tactical_carrier"
-				
 				"weapon"				"weapon_m40a1"
 				"weapon"				"weapon_l1a1"
 				"weapon"				"weapon_m14"
@@ -571,7 +490,7 @@
 				"weapon"				"weapon_fal"	
 				
 				"weapon"				"weapon_m1garand"
-				"weapon"				"weapon_svd"
+				"weapon"				"weapon_mk12"
 				"weapon"				"weapon_m107"
 				"weapon"				"weapon_welrod"
 				
@@ -581,6 +500,7 @@
 				"weapon"				"weapon_m18"
 				"weapon"				"weapon_m84"
 				"weapon"				"weapon_m67"
+				"weapon"				"weapon_anm14"
 				
 				"weapon_upgrade"			"optic_scope_mk4"
 				"weapon_upgrade"			"optic_scope_7x"
@@ -597,7 +517,7 @@
 			{
 				"weapon_upgrade"
 				{
-					"underbarrel_bipod"				"-1"
+					"underbarrel_bipod"				"-2"
 				}
 			}
 		}
@@ -635,23 +555,15 @@
 			}
 		
 			"allowed_items"
-			{	
-				"gear"					"sec_light_armor"
-				"gear"					"sec_heavy_armor"
-				"gear"					"sec_chest_rig"
-				"gear"					"sec_chest_carrier"
-				
-				"gear"					"sec_eod_armor"
-				"gear"					"sec_tactical_carrier"
-				
+			{
 				"weapon"				"weapon_m590"
+				"weapon"				"weapon_m16a4"
 				"weapon"				"weapon_mp5"
 				"weapon"				"weapon_mk18"
-				"weapon"				"weapon_ump45"
+				"weapon"				"weapon_toz"
 				"weapon"				"weapon_aks74u"
-				"weapon"				"weapon_sterling"
 				
-				"weapon"				"weapon_groza"
+				"weapon"				"weapon_mp7"
 				"weapon"				"weapon_m1014"
 				"weapon"				"weapon_izh43"
 				"weapon"				"weapon_vector"
@@ -673,11 +585,6 @@
 				{
 					"sec_heavy_armor"	"-2"
 					"sec_eod_armor"		"-1"
-				}
-				
-				"weapon"
-				{
-					"weapon_m18"	"2"
 				}
 				
 				"weapon_upgrade"
@@ -711,38 +618,30 @@
 			
 			"buy_order"
 			{
-				"gear"					"sec_light_armor"
+				"gear"					"sec_heavy_armor"
 				"gear"					"sec_chest_carrier"
 				"weapon"				"weapon_kabar"
-				"weapon"				"weapon_galil_sar"
-				"weapon_upgrade"		"ammo_tracer_galil"
+				"weapon"				"weapon_mk18"
+				"weapon_upgrade"		"ammo_tracer_m4"
 				"weapon_upgrade"		"optic_aimpoint"
 				"weapon"				"weapon_m9"
-				"weapon"				"weapon_anm14"
+				"weapon"				"weapon_m18"
 				
 			}
 		
 			"allowed_items"
 			{
-				"gear"					"sec_light_armor"
-				"gear"					"sec_heavy_armor"
-				"gear"					"sec_chest_rig"
-				"gear"					"sec_chest_carrier"
-				
-				"gear"					"sec_eod_armor"
-				"gear"					"sec_tactical_carrier"
-			
 				"weapon"				"weapon_m590"
-				"weapon"				"weapon_m16a4"
-				"weapon"				"weapon_mp5"
+				"weapon"				"weapon_ump45"
+				"weapon"				"weapon_mk18"
 				"weapon"				"weapon_galil_sar"
-				"weapon"				"weapon_ak74"
-				"weapon"				"weapon_sterling"
+				"weapon"				"weapon_akm"
+				"weapon"				"weapon_m1a1"
 				
-				"weapon"				"weapon_arx160"
-				"weapon"				"weapon_mk12"
+				"weapon"				"weapon_mp7"
+				"weapon"				"weapon_l85a2"
 				"weapon"				"weapon_mk17"
-				"weapon"				"weapon_welrod"
+				"weapon"				"weapon_m500"
 				
 				"weapon"				"weapon_m9"
 				"weapon"				"weapon_m45"
@@ -751,34 +650,27 @@
 				"weapon"				"weapon_m84"
 				"weapon"				"weapon_m67"
 				"weapon"				"weapon_anm14"
+
+				"weapon_upgrade"		"barrel_silencer_sec1"
+				"weapon_upgrade"		"barrel_silencer_pistol"
+				"weapon_upgrade"		"barrel_silencer_ins1"
+				"weapon_upgrade"		"underbarrel_bipod"
+				"weapon_upgrade"		"magazine_drum_75rd"
+				"weapon_upgrade"		"underbarrel_gp25_smoke"
 				
-				"weapon_upgrade"			"barrel_silencer_sec1"
-				"weapon_upgrade"			"barrel_silencer_sec2"
-				"weapon_upgrade"			"barrel_silencer_pistol"
-				"weapon_upgrade"			"barrel_silencer_ins1"
-				"weapon_upgrade"			"barrel_silencer_heavy"
-				"weapon_upgrade"			"barrel_silencer_integrated"
-				"weapon_upgrade"			"underbarrel_bipod"
-				"weapon_upgrade"			"magazine_drum_75rd"
-				"weapon_upgrade"			"underbarrel_m203_smoke"
-				"weapon_upgrade"			"underbarrel_gp25_smoke"
+				"weapon_upgrade"		"underbarrel_m320_smoke"
 				
-				"weapon_upgrade"			"underbarrel_m320_smoke"
 			}
 			
 			"cost_modifiers"
 			{	
 				"weapon"
 				{
-					"weapon_m18"	"1"
+					"weapon_akm"	"3"
 				}
-			
 				"weapon_upgrade"
 				{
-					"magazine_drum_75rd"		"-1"
-					"underbarrel_m203_smoke"	"1"
-					"underbarrel_gp25_smoke"	"1"
-					"underbarrel_m320_smoke"	"1"
+					"magazine_drum_75rd"	"-1"
 				}
 			}
 		}
@@ -815,14 +707,6 @@
 			
 			"allowed_items"
 			{
-				"gear"					"sec_light_armor"
-				"gear"					"sec_heavy_armor"
-				"gear"					"sec_chest_rig"
-				"gear"					"sec_chest_carrier"
-				
-				"gear"					"sec_eod_armor"
-				"gear"					"sec_tactical_carrier"
-				
 				"weapon"				"weapon_m16a4"
 				"weapon"				"weapon_m4a1"
 				"weapon"				"weapon_ump45"
@@ -861,16 +745,8 @@
 					"sec_eod_armor"		"-1"
 				}
 				
-				"weapon"
-				{
-					"weapon_m18"	"2"
-				}
-				
 				"weapon_upgrade"
 				{
-					"underbarrel_m203_smoke"	"1"
-					"underbarrel_gp25_smoke"	"1"
-					"underbarrel_m320_smoke"	"1"
 					"grenade_upgrade_damage"	"-1"
 					"explosive_upgrade_pierce"	"-1"
 				}
@@ -910,14 +786,6 @@
 			
 			"allowed_items"
 			{
-				"gear"					"sec_light_armor"
-				"gear"					"sec_heavy_armor"
-				"gear"					"sec_chest_rig"
-				"gear"					"sec_chest_carrier"
-				
-				"gear"					"sec_eod_armor"
-				"gear"					"sec_tactical_carrier"
-				
 				"weapon"				"weapon_galil_sar"
 				"weapon"				"weapon_m249"
 				"weapon"				"weapon_m14"
@@ -934,6 +802,7 @@
 				"weapon"				"weapon_m18"
 				"weapon"				"weapon_m84"
 				"weapon"				"weapon_m67"
+				"weapon"				"weapon_anm14"
 				
 				"weapon_upgrade"			"underbarrel_bipod"
 				"weapon_upgrade"			"magazine_drum_75rd"
@@ -943,7 +812,6 @@
 			{	
 				"weapon"
 				{
-					"weapon_m18"	"2"
 					"weapon_galil_sar"	"-1"
 				}
 				
@@ -992,25 +860,18 @@
 			
 			"allowed_items"
 			{
-				"gear"					"sec_light_armor"
-				"gear"					"sec_heavy_armor"
-				"gear"					"sec_chest_rig"
-				"gear"					"sec_chest_carrier"
-				
-				"gear"					"sec_eod_armor"
-				"gear"					"sec_tactical_carrier"
-				
 				"gear"					"perk_sitrep"
 				
 				"weapon"				"weapon_m16a4"
-				"weapon"				"weapon_mini14"
+				"weapon"				"weapon_l1a1"
 				"weapon"				"weapon_m14"
-				"weapon"				"weapon_m1a1"
+				"weapon"				"weapon_akm"
+				"weapon"				"weapon_sks"
 				"weapon"				"weapon_fal"
-				
-				"weapon"				"weapon_g3a3"
-				"weapon"				"weapon_vhs2"
+
+				"weapon"				"weapon_l85a2"
 				"weapon"				"weapon_mk12"
+				"weapon"				"weapon_svd"
 				"weapon"				"weapon_sw500"
 				
 				"weapon"				"weapon_m9"
@@ -1019,6 +880,7 @@
 				"weapon"				"weapon_m18"
 				"weapon"				"weapon_m84"
 				"weapon"				"weapon_m67"
+				"weapon"				"weapon_anm14"
 				
 				"weapon_upgrade"			"barrel_silencer_sec1"
 				"weapon_upgrade"			"barrel_silencer_sec2"
@@ -1026,69 +888,14 @@
 				"weapon_upgrade"			"barrel_silencer_ins1"
 				"weapon_upgrade"			"underbarrel_bipod"
 			}
-		}
-		
-		// ========================================
-		// VIP (LEGACY)
-		// ========================================
-		
-		"template_vip_security_coop"
-		{
-			"team"					"security"
-			"print_name"			"#Squad_Fireteam_VIP"
 			
-			
-			"models"
-			{
-				"player"				"models/characters/civilian_vip_security.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
-			
-				"bodygroups"
-				{
-					"kit"					"0"
-					"backpack"				"0"
-					"glasses"				"1"
-				}
-			}
-			
-			"buy_order"
-			{
-				"gear"		"sec_light_armor_vip"
-				"gear"		"sec_chest_rig"
-				"weapon"			"weapon_kabar"
-				"weapon"			"weapon_m45"
-				"weapon_upgrade"	"barrel_silencer_pistol"
-				"weapon_upgrade"	"magazine_extended_pistol"
-				"weapon"			"weapon_m18"
-				"weapon"			"weapon_m18"
-				
-			}
-			
-			"allowed_items"
+			"cost_modifiers"
 			{	
-				"gear"		"sec_light_armor_vip"
-				"gear"		"sec_heavy_armor_vip"
-				"gear"		"sec_eod_armor_vip"
-				
-				"gear"		"sec_chest_rig"
-				"gear"		"sec_chest_carrier"
-				
-				"gear"		"sec_sidearm_carrier"
-				
-				"weapon"				"weapon_m9"
-				"weapon"				"weapon_m45"
-				"weapon"				"weapon_m1911"
-				
-				"weapon"				"weapon_welrod"
-				"weapon"				"weapon_sw500"
-				"weapon"				"weapon_m500"
-				
-				"weapon"				"weapon_m18"
-				"weapon"				"weapon_m84"
-				"weapon"				"weapon_m67"
-				
-				"weapon_upgrade"		"barrel_silencer_pistol"
-				"weapon_upgrade"		"barrel_silencer_integrated"
+				"weapon"
+				{
+					"weapon_akm"	"3"
+					"weapon_m1garand"	"1"
+				}
 			}
 		}
 		
@@ -1127,25 +934,17 @@
 			
 			"allowed_items"
 			{
-				"gear"					"sec_light_armor"
-				"gear"					"sec_heavy_armor"
-				"gear"					"sec_chest_rig"
-				"gear"					"sec_chest_carrier"
-				
-				"gear"					"sec_eod_armor"
-				"gear"					"sec_tactical_carrier"
-				
 				"weapon"				"weapon_akm"
 				"weapon"				"weapon_mp40"
 				"weapon"				"weapon_m1a1"
 				"weapon"				"weapon_galil"
 				"weapon"				"weapon_sks"
-				"weapon"				"weapon_toz"
 				"weapon"				"weapon_m1911"
 				
 				"weapon"				"weapon_m1garand"
-				"weapon"				"weapon_vss"
+				"weapon"				"weapon_asval"
 				"weapon"				"weapon_m16a1"
+				"weapon"				"weapon_ppsh41"
 				"weapon"				"weapon_welrod"
 				
 				"weapon"				"weapon_m18"
@@ -1159,7 +958,8 @@
 				"weapon_upgrade"			"magazine_drum_75rd"
 				
 				"weapon_upgrade"			"scope_4x_m1garand"
-
+				"weapon_upgrade"			"underbarrel_bipod_m16a1"
+				//"weapon_upgrade"			"underbarrel_m203_smoke_m16a1"
 			}
 			
 			"cost_modifiers"
@@ -1167,8 +967,6 @@
 				"weapon"
 				{
 					"weapon_akm"	"3"
-					"weapon_m18"	"2"
-					
 					"weapon_m1garand"	"1"
 				}
 			}
@@ -1208,23 +1006,15 @@
 			}
 			
 			"allowed_items"
-			{	
-				"gear"					"sec_light_armor"
-				"gear"					"sec_heavy_armor"
-				"gear"					"sec_chest_rig"
-				"gear"					"sec_chest_carrier"
-				
-				"gear"					"sec_eod_armor"
-				"gear"					"sec_tactical_carrier"
-				
+			{
 				"weapon"				"weapon_m16a4"
 				"weapon"				"weapon_m4a1"
 				"weapon"				"weapon_mini14"
-				"weapon"				"weapon_ump45"
 				"weapon"				"weapon_m1a1"
 				"weapon"				"weapon_ak74"
 				
 				"weapon"				"weapon_l85a2"
+				"weapon"				"weapon_vector"
 				"weapon"				"weapon_honeybadger"
 				"weapon"				"weapon_mk17"
 				"weapon"				"weapon_sw500"
@@ -1238,20 +1028,18 @@
 				"weapon"				"weapon_anm14"
 				"weapon"				"weapon_c4_clicker"
 				
+				"weapon"				"weapon_p2a1_smoke"
+				
 				"weapon_upgrade"			"barrel_silencer_sec1"
 				"weapon_upgrade"			"barrel_silencer_sec2"
 				"weapon_upgrade"			"barrel_silencer_pistol"
 				"weapon_upgrade"			"barrel_silencer_ins1"
+				"weapon_upgrade"			"underbarrel_3gl_he"
+				"weapon_upgrade"			"underbarrel_3gl_smoke"
+				"weapon_upgrade"			"underbarrel_3gl_m320_he"
+				"weapon_upgrade"			"underbarrel_3gl_m320_smoke"
 				"weapon_upgrade"			"underbarrel_bipod"
 				"weapon_upgrade"			"optic_scope_mk4"
-			}
-			
-			"cost_modifiers"
-			{
-				"weapon"
-				{
-					"weapon_m18"		"1"
-				}
 			}
 		}
 	}
